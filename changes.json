@@ -8,9 +8,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/lfm2-5-8b-a1b",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added LFM2.5 8B-A1B",
-      "detail": "Launch pricing: $0.03 in / $0.12 out per million tokens."
+      "kind": "coverage",
+      "headline": "LFM2.5 8B-A1B added to statlyte coverage",
+      "detail": "First observed at $0.03 in / $0.12 out per million tokens."
     },
     {
       "id": 35,
@@ -18,9 +18,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/gemma-3n-e4b-it",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Gemma 3n E4B IT",
-      "detail": "Launch pricing: $0.06 in / $0.12 out per million tokens."
+      "kind": "coverage",
+      "headline": "Gemma 3n E4B IT added to statlyte coverage",
+      "detail": "First observed at $0.06 in / $0.12 out per million tokens."
     },
     {
       "id": 34,
@@ -28,9 +28,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/qwen3-7-plus",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Qwen3.7 Plus",
-      "detail": "Launch pricing: $0.32 in / $1.28 out per million tokens."
+      "kind": "coverage",
+      "headline": "Qwen3.7 Plus added to statlyte coverage",
+      "detail": "First observed at $0.32 in / $1.28 out per million tokens."
     },
     {
       "id": 33,
@@ -38,9 +38,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/gemma-4-31b-it",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Gemma 4 31B IT",
-      "detail": "Launch pricing: $0.39 in / $0.97 out per million tokens."
+      "kind": "coverage",
+      "headline": "Gemma 4 31B IT added to statlyte coverage",
+      "detail": "First observed at $0.39 in / $0.97 out per million tokens."
     },
     {
       "id": 32,
@@ -48,9 +48,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/qwen2-5-7b-instruct-turbo",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Qwen2.5 7B Instruct Turbo",
-      "detail": "Launch pricing: $0.3 in / $0.3 out per million tokens."
+      "kind": "coverage",
+      "headline": "Qwen2.5 7B Instruct Turbo added to statlyte coverage",
+      "detail": "First observed at $0.3 in / $0.3 out per million tokens."
     },
     {
       "id": 31,
@@ -58,9 +58,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/llama-3-3-70b-instruct-turbo",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Llama 3.3 70B Instruct Turbo",
-      "detail": "Launch pricing: $1.04 in / $1.04 out per million tokens."
+      "kind": "coverage",
+      "headline": "Llama 3.3 70B Instruct Turbo added to statlyte coverage",
+      "detail": "First observed at $1.04 in / $1.04 out per million tokens."
     },
     {
       "id": 30,
@@ -68,9 +68,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/nemotron-3-ultra-550b-a55b",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Nemotron 3 Ultra 550B-A55B",
-      "detail": "Launch pricing: $0.6 in / $3.6 out per million tokens."
+      "kind": "coverage",
+      "headline": "Nemotron 3 Ultra 550B-A55B added to statlyte coverage",
+      "detail": "First observed at $0.6 in / $3.6 out per million tokens."
     },
     {
       "id": 29,
@@ -78,9 +78,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/deepseek-v4-flash-0731",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added DeepSeek V4 Flash (0731)",
-      "detail": "Launch pricing: $0.14 in / $0.28 out per million tokens."
+      "kind": "coverage",
+      "headline": "DeepSeek V4 Flash (0731) added to statlyte coverage",
+      "detail": "First observed at $0.14 in / $0.28 out per million tokens."
     },
     {
       "id": 28,
@@ -88,9 +88,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/deepseek-v4-pro",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added DeepSeek V4 Pro",
-      "detail": "Launch pricing: $1.74 in / $3.48 out per million tokens."
+      "kind": "coverage",
+      "headline": "DeepSeek V4 Pro added to statlyte coverage",
+      "detail": "First observed at $1.74 in / $3.48 out per million tokens."
     },
     {
       "id": 27,
@@ -98,9 +98,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/gpt-oss-20b",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added GPT-OSS 20B",
-      "detail": "Launch pricing: $0.05 in / $0.2 out per million tokens."
+      "kind": "coverage",
+      "headline": "GPT-OSS 20B added to statlyte coverage",
+      "detail": "First observed at $0.05 in / $0.2 out per million tokens."
     },
     {
       "id": 26,
@@ -108,9 +108,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/gpt-oss-120b",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added GPT-OSS 120B",
-      "detail": "Launch pricing: $0.15 in / $0.6 out per million tokens."
+      "kind": "coverage",
+      "headline": "GPT-OSS 120B added to statlyte coverage",
+      "detail": "First observed at $0.15 in / $0.6 out per million tokens."
     },
     {
       "id": 25,
@@ -118,9 +118,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/glm-5-2",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added GLM-5.2",
-      "detail": "Launch pricing: $1.4 in / $4.4 out per million tokens."
+      "kind": "coverage",
+      "headline": "GLM-5.2 added to statlyte coverage",
+      "detail": "First observed at $1.4 in / $4.4 out per million tokens."
     },
     {
       "id": 24,
@@ -128,9 +128,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/kimi-k2-6",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Kimi K2.6",
-      "detail": "Launch pricing: $1.2 in / $4.5 out per million tokens."
+      "kind": "coverage",
+      "headline": "Kimi K2.6 added to statlyte coverage",
+      "detail": "First observed at $1.2 in / $4.5 out per million tokens."
     },
     {
       "id": 23,
@@ -138,9 +138,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/kimi-k2-7-code",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Kimi K2.7 Code",
-      "detail": "Launch pricing: $0.95 in / $4 out per million tokens."
+      "kind": "coverage",
+      "headline": "Kimi K2.7 Code added to statlyte coverage",
+      "detail": "First observed at $0.95 in / $4 out per million tokens."
     },
     {
       "id": 22,
@@ -148,9 +148,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/kimi-k3",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Kimi K3",
-      "detail": "Launch pricing: $3 in / $15 out per million tokens."
+      "kind": "coverage",
+      "headline": "Kimi K3 added to statlyte coverage",
+      "detail": "First observed at $3 in / $15 out per million tokens."
     },
     {
       "id": 21,
@@ -158,9 +158,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/qwen3-5-9b",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Qwen3.5 9B",
-      "detail": "Launch pricing: $0.17 in / $0.25 out per million tokens."
+      "kind": "coverage",
+      "headline": "Qwen3.5 9B added to statlyte coverage",
+      "detail": "First observed at $0.17 in / $0.25 out per million tokens."
     },
     {
       "id": 20,
@@ -168,9 +168,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/qwen3-6-plus",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Qwen3.6 Plus",
-      "detail": "Launch pricing: $0.5 in / $3 out per million tokens."
+      "kind": "coverage",
+      "headline": "Qwen3.6 Plus added to statlyte coverage",
+      "detail": "First observed at $0.5 in / $3 out per million tokens."
     },
     {
       "id": 19,
@@ -178,9 +178,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/qwen3-7-max",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Qwen3.7 Max",
-      "detail": "Launch pricing: $1.25 in / $3.75 out per million tokens."
+      "kind": "coverage",
+      "headline": "Qwen3.7 Max added to statlyte coverage",
+      "detail": "First observed at $1.25 in / $3.75 out per million tokens."
     },
     {
       "id": 18,
@@ -188,9 +188,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/minimax-m3",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added MiniMax M3",
-      "detail": "Launch pricing: $0.3 in / $1.2 out per million tokens."
+      "kind": "coverage",
+      "headline": "MiniMax M3 added to statlyte coverage",
+      "detail": "First observed at $0.3 in / $1.2 out per million tokens."
     },
     {
       "id": 17,
@@ -198,9 +198,9 @@
       "source_url": "https://docs.together.ai/docs/serverless-models",
       "model_id": "together/inkling",
       "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI added Inkling",
-      "detail": "Launch pricing: $1 in / $4.05 out per million tokens."
+      "kind": "coverage",
+      "headline": "Inkling added to statlyte coverage",
+      "detail": "First observed at $1 in / $4.05 out per million tokens."
     },
     {
       "id": 16,
@@ -208,8 +208,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/rerank-2-5-lite",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Rerank 2.5 Lite",
+      "kind": "coverage",
+      "headline": "Rerank 2.5 Lite added to statlyte coverage",
       "detail": null
     },
     {
@@ -218,8 +218,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/rerank-2-5",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Rerank 2.5",
+      "kind": "coverage",
+      "headline": "Rerank 2.5 added to statlyte coverage",
       "detail": null
     },
     {
@@ -228,8 +228,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-multimodal-3",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Multimodal 3",
+      "kind": "coverage",
+      "headline": "Voyage Multimodal 3 added to statlyte coverage",
       "detail": null
     },
     {
@@ -238,8 +238,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-multimodal-3-5",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Multimodal 3.5",
+      "kind": "coverage",
+      "headline": "Voyage Multimodal 3.5 added to statlyte coverage",
       "detail": null
     },
     {
@@ -248,8 +248,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-law-2",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Law 2",
+      "kind": "coverage",
+      "headline": "Voyage Law 2 added to statlyte coverage",
       "detail": null
     },
     {
@@ -258,8 +258,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-finance-2",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Finance 2",
+      "kind": "coverage",
+      "headline": "Voyage Finance 2 added to statlyte coverage",
       "detail": null
     },
     {
@@ -268,8 +268,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-multilingual-2",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Multilingual 2",
+      "kind": "coverage",
+      "headline": "Voyage Multilingual 2 added to statlyte coverage",
       "detail": null
     },
     {
@@ -278,8 +278,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-code-2",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Code 2",
+      "kind": "coverage",
+      "headline": "Voyage Code 2 added to statlyte coverage",
       "detail": null
     },
     {
@@ -288,8 +288,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-code-3",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Code 3",
+      "kind": "coverage",
+      "headline": "Voyage Code 3 added to statlyte coverage",
       "detail": null
     },
     {
@@ -298,8 +298,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-context-4",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage Context 4",
+      "kind": "coverage",
+      "headline": "Voyage Context 4 added to statlyte coverage",
       "detail": null
     },
     {
@@ -308,8 +308,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-4-lite",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage 4 Lite",
+      "kind": "coverage",
+      "headline": "Voyage 4 Lite added to statlyte coverage",
       "detail": null
     },
     {
@@ -318,8 +318,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-4",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage 4",
+      "kind": "coverage",
+      "headline": "Voyage 4 added to statlyte coverage",
       "detail": null
     },
     {
@@ -328,8 +328,8 @@
       "source_url": "https://docs.voyageai.com/docs/pricing",
       "model_id": "voyage/voyage-4-large",
       "provider_id": "voyage",
-      "kind": "new_model",
-      "headline": "Voyage AI added Voyage 4 Large",
+      "kind": "coverage",
+      "headline": "Voyage 4 Large added to statlyte coverage",
       "detail": null
     },
     {
