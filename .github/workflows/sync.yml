@@ -1,0 +1,57 @@
+name: Sync dataset
+
+# Pulls from statlyte's public API, so this repo needs no credentials of its own.
+on:
+  schedule:
+    - cron: '27 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the current dataset
+        run: |
+          set -euo pipefail
+          curl -sS --fail --max-time 30 https://statlyte.com/api/v1/models > /tmp/models.json
+          curl -sS --fail --max-time 30 'https://statlyte.com/api/v1/changes?limit=50' > /tmp/changes.json
+          # Refuse to commit a truncated or empty payload over good data.
+          node -e '
+            const m = require("/tmp/models.json");
+            if (!Array.isArray(m.models) || m.models.length < 20) {
+              console.error(`only ${m.models?.length ?? 0} models returned — refusing to overwrite`);
+              process.exit(1);
+            }
+            console.log(`${m.models.length} models fetched`);
+          '
+          cp /tmp/models.json models.json
+          cp /tmp/changes.json changes.json
+
+      - name: Verify the package still works against the new snapshot
+        run: |
+          node -e '
+            import("./index.mjs").then(async (s) => {
+              const models = await s.getModels({ offline: true });
+              if (models.length < 20) throw new Error("snapshot too small");
+              const m = await s.getModel("claude-sonnet-5", { offline: true });
+              if (!m || m.prices.input == null) throw new Error("lookup broken");
+              console.log(`ok — ${models.length} models, lookup works`);
+            }).catch((e) => { console.error(e.message); process.exit(1); });
+          '
+
+      - name: Commit
+        run: |
+          git config user.name "statlyte-bot"
+          git config user.email "bot@statlyte.com"
+          if ! git diff --quiet; then
+            git add models.json changes.json
+            git commit -m "data: refresh pricing snapshot"
+            git push
+          else
+            echo "no change"
+          fi
