@@ -1,0 +1,16 @@
+{
+  "name": "statlyte",
+  "version": "0.1.0",
+  "description": "Live pricing, context windows and identifiers for every major LLM API. Stop hardcoding a model table that goes stale.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": "./index.mjs", "./models.json": "./models.json" },
+  "bin": { "statlyte-mcp": "./mcp-server.mjs" },
+  "files": ["index.mjs", "mcp-server.mjs", "models.json"],
+  "keywords": ["llm", "pricing", "openai", "anthropic", "claude", "gpt", "gemini",
+    "token-cost", "model-pricing", "mcp", "ai-costs", "llm-pricing"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/richardwilkinson9/statlyte-data.git" },
+  "homepage": "https://statlyte.com",
+  "engines": { "node": ">=18" }
+}
