@@ -64,6 +64,12 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
+          NAME=$(node -p "require('./package.json').name")
+          VER=$(node -p "require('./package.json').version")
+          if [ "$(npm view "$NAME@$VER" version 2>/dev/null)" = "$VER" ]; then
+            echo "$NAME@$VER is already on npm — nothing to publish"
+            exit 0
+          fi
           if npm publish --access public 2>/tmp/npmerr; then
             echo "published"
           else

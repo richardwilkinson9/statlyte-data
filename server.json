@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.richardwilkinson9/statlyte",
-  "title": "statlyte — live LLM pricing",
-  "description": "Current prices, context windows and API identifiers for every major LLM API, read from each vendor's own published pricing page every three hours. Lets an agent quote today's numbers instead of guessing from stale training data, estimate what a call costs, rank models against a real workload, and see price changes vendors have already announced.",
+  "title": "statlyte \u2014 live LLM pricing",
+  "description": "Live LLM pricing, context windows and model ids, read from each vendor's own page every 3 hours.",
   "repository": {
     "url": "https://github.com/richardwilkinson9/statlyte-data",
     "source": "github"
@@ -14,7 +14,9 @@
       "registryType": "npm",
       "identifier": "statlyte",
       "version": "0.1.0",
-      "transport": { "type": "stdio" }
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
