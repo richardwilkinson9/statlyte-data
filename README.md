@@ -22,8 +22,12 @@ dashboard is quietly lying to you. This package fetches the current numbers inst
 - **MIT.** The data is free and the API needs no key
 
 ```bash
-npm i statlyte
+npm i github:richardwilkinson9/statlyte-data
 ```
+
+> **On the npm name:** `statlyte` is reserved but not yet published to the registry, so
+> `npm i statlyte` will not work today. The GitHub install above is the real one and is
+> tested on every commit. This note comes down the day it ships.
 
 ## Use it
 
@@ -85,7 +89,7 @@ An assistant's training data goes stale on prices within weeks, and a guessed nu
 worse than no number. This gives your agent the current figures:
 
 ```bash
-claude mcp add statlyte -- npx -y statlyte-mcp
+claude mcp add statlyte -- npx -y github:richardwilkinson9/statlyte-data
 ```
 
 <details>
@@ -94,7 +98,10 @@ claude mcp add statlyte -- npx -y statlyte-mcp
 ```json
 {
   "mcpServers": {
-    "statlyte": { "command": "npx", "args": ["-y", "statlyte-mcp"] }
+    "statlyte": {
+      "command": "npx",
+      "args": ["-y", "github:richardwilkinson9/statlyte-data"]
+    }
   }
 }
 ```
