@@ -1,0 +1,60 @@
+name: Publish
+
+# Ships the package to npm and the metadata to the official MCP Registry.
+# Registry auth is OIDC, so the only secret needed is NPM_TOKEN.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write   # OIDC for the MCP Registry
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Check the package actually works before shipping it
+        run: |
+          node -e '
+            import("./index.mjs").then(async (s) => {
+              const m = await s.getModel("claude-sonnet-5", { offline: true });
+              if (!m?.prices?.input) throw new Error("lookup broken");
+              const c = await s.costOf("gpt-5-mini", { input: 1e6, output: 1e6 }, { offline: true });
+              if (!(c > 0)) throw new Error("cost broken");
+              console.log("package ok");
+            }).catch((e) => { console.error(e.message); process.exit(1); });
+          '
+          printf '%s\n' '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' \
+            | node mcp-server.mjs | grep -q get_model_pricing
+          echo "mcp server ok"
+
+      - name: Keep server.json and package.json in lockstep
+        run: |
+          PKG=$(node -p "require('./package.json').version")
+          node -e "
+            const fs=require('fs'); const s=JSON.parse(fs.readFileSync('server.json','utf8'));
+            s.version='$PKG'; s.packages[0].version='$PKG';
+            fs.writeFileSync('server.json',JSON.stringify(s,null,2)+'\n');
+          "
+          echo "version $PKG"
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Install mcp-publisher
+        run: |
+          curl -sL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_$(uname -s | tr '[:upper:]' '[:lower:]')_$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/').tar.gz" | tar xz mcp-publisher
+
+      - name: Publish to the MCP Registry
+        run: |
+          ./mcp-publisher login github-oidc
+          ./mcp-publisher publish
