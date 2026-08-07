@@ -22,12 +22,8 @@ dashboard is quietly lying to you. This package fetches the current numbers inst
 - **MIT.** The data is free and the API needs no key
 
 ```bash
-npm i github:richardwilkinson9/statlyte-data
+npm i statlyte
 ```
-
-> **On the npm name:** `statlyte` is reserved but not yet published to the registry, so
-> `npm i statlyte` will not work today. The GitHub install above is the real one and is
-> tested on every commit. This note comes down the day it ships.
 
 ## Use it
 
@@ -89,7 +85,7 @@ An assistant's training data goes stale on prices within weeks, and a guessed nu
 worse than no number. This gives your agent the current figures:
 
 ```bash
-claude mcp add statlyte -- npx -y github:richardwilkinson9/statlyte-data
+claude mcp add statlyte -- npx -y statlyte
 ```
 
 <details>
@@ -100,7 +96,7 @@ claude mcp add statlyte -- npx -y github:richardwilkinson9/statlyte-data
   "mcpServers": {
     "statlyte": {
       "command": "npx",
-      "args": ["-y", "github:richardwilkinson9/statlyte-data"]
+      "args": ["-y", "statlyte"]
     }
   }
 }
@@ -109,6 +105,9 @@ claude mcp add statlyte -- npx -y github:richardwilkinson9/statlyte-data
 
 Tools: `list_models`, `get_model_pricing`, `estimate_cost`, `cheapest_for_workload`,
 `scheduled_price_changes`.
+
+Also listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/) as
+`io.github.richardwilkinson9/statlyte`.
 
 ## Or just take the JSON
 
