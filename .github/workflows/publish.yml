@@ -45,10 +45,34 @@ jobs:
           "
           echo "version $PKG"
 
-      - name: Publish to npm
-        run: npm publish --access public
+      - name: Check the npm token before trying to publish
+        # A 403 on publish is ambiguous: bad token, read-only token, or a granular
+        # token not scoped to allow new packages. whoami separates those.
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if ! WHO=$(npm whoami 2>&1); then
+            echo "::error::npm rejected the token outright: $WHO"
+            echo "The token is invalid, revoked, or not an npm token at all."
+            exit 1
+          fi
+          echo "authenticated to npm as: $WHO"
+          echo "publishing a NEW package, which needs write access to all packages —"
+          echo "a granular token limited to selected packages cannot create one."
+
+      - name: Publish to npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if npm publish --access public 2>/tmp/npmerr; then
+            echo "published"
+          else
+            cat /tmp/npmerr
+            if grep -q "E403\|Forbidden" /tmp/npmerr; then
+              echo "::error::npm authenticated but refused the publish. The token lacks permission to create a new package. Fix: npmjs.com > Access Tokens > Generate New Token > Classic > Automation (full rights), or a Granular token with Packages and scopes = Read and write on All packages."
+            fi
+            exit 1
+          fi
 
       - name: Install mcp-publisher
         run: |
