@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-08-07",
   "source": "https://statlyte.com/models",
-  "count": 110,
+  "count": 125,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1756,6 +1756,231 @@
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/lfm2-5-8b-a1b"
+    },
+    {
+      "id": "together/inkling-small",
+      "provider": "together",
+      "name": "Inkling Small",
+      "api_id": "thinkingmachines/Inkling-Small",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 524288,
+      "usd_per_mtok": {
+        "input": 0.5,
+        "output": 1.2
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/inkling-small"
+    },
+    {
+      "id": "together/cogito-v2-1-671b",
+      "provider": "together",
+      "name": "Cogito v2.1 671B",
+      "api_id": "deepcogito/cogito-v2-1-671b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 163840,
+      "usd_per_mtok": {
+        "input": 1.25,
+        "output": 1.25
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/cogito-v2-1-671b"
+    },
+    {
+      "id": "together/gemma-4-31b-it-pearl-ai",
+      "provider": "together",
+      "name": "Gemma 4 31B Instruct (Pearl AI)",
+      "api_id": "pearl-ai/gemma-4-31b-it",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 32000,
+      "usd_per_mtok": {
+        "input": 0.28,
+        "output": 0.86
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/gemma-4-31b-it-pearl-ai"
+    },
+    {
+      "id": "together/ternary-bonsai-27b",
+      "provider": "together",
+      "name": "Ternary Bonsai 27B",
+      "api_id": "Prism-ML/Ternary-Bonsai-27B",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 262144,
+      "usd_per_mtok": {
+        "input": 0,
+        "output": 0
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/ternary-bonsai-27b"
+    },
+    {
+      "id": "groq/llama-3-1-8b-instant",
+      "provider": "groq",
+      "name": "Llama 3.1 8B Instant",
+      "api_id": "llama-3.1-8b-instant",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.05,
+        "output": 0.08
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/llama-3-1-8b-instant"
+    },
+    {
+      "id": "groq/llama-3-3-70b-versatile",
+      "provider": "groq",
+      "name": "Llama 3.3 70B Versatile",
+      "api_id": "llama-3.3-70b-versatile",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.59,
+        "output": 0.79
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/llama-3-3-70b-versatile"
+    },
+    {
+      "id": "groq/gpt-oss-120b",
+      "provider": "groq",
+      "name": "GPT-OSS 120B",
+      "api_id": "openai/gpt-oss-120b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/gpt-oss-120b"
+    },
+    {
+      "id": "groq/gpt-oss-20b",
+      "provider": "groq",
+      "name": "GPT-OSS 20B",
+      "api_id": "openai/gpt-oss-20b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.075,
+        "output": 0.3
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/gpt-oss-20b"
+    },
+    {
+      "id": "cohere/command",
+      "provider": "cohere",
+      "name": "Command",
+      "api_id": "command",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 1,
+        "output": 2
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/command"
+    },
+    {
+      "id": "cohere/command-light",
+      "provider": "cohere",
+      "name": "Command Light",
+      "api_id": "command-light",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.3,
+        "output": 0.6
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/command-light"
+    },
+    {
+      "id": "cohere/command-r-03-2024",
+      "provider": "cohere",
+      "name": "Command R (03-2024)",
+      "api_id": "command-r-03-2024",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/command-r-03-2024"
+    },
+    {
+      "id": "cohere/command-r-plus-04-2024",
+      "provider": "cohere",
+      "name": "Command R+ (04-2024)",
+      "api_id": "command-r-plus-04-2024",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 3,
+        "output": 15
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/command-r-plus-04-2024"
+    },
+    {
+      "id": "cohere/command-r-plus-08-2024",
+      "provider": "cohere",
+      "name": "Command R+ (08-2024)",
+      "api_id": "command-r-plus-08-2024",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 2.5,
+        "output": 10
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/command-r-plus-08-2024"
+    },
+    {
+      "id": "cohere/aya-expanse-8b",
+      "provider": "cohere",
+      "name": "Aya Expanse 8B",
+      "api_id": "c4ai-aya-expanse-8b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/aya-expanse-8b"
+    },
+    {
+      "id": "cohere/aya-expanse-32b",
+      "provider": "cohere",
+      "name": "Aya Expanse 32B",
+      "api_id": "c4ai-aya-expanse-32b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/cohere/aya-expanse-32b"
     }
   ]
 }

@@ -1,7 +1,157 @@
 {
-  "count": 36,
+  "count": 50,
   "pro": false,
   "changes": [
+    {
+      "id": 51,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/aya-expanse-32b",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Aya Expanse 32B added to statlyte coverage",
+      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
+    },
+    {
+      "id": 50,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/aya-expanse-8b",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Aya Expanse 8B added to statlyte coverage",
+      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
+    },
+    {
+      "id": 49,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/command-r-plus-08-2024",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Command R+ (08-2024) added to statlyte coverage",
+      "detail": "First observed at $2.5 in / $10 out per million tokens."
+    },
+    {
+      "id": 48,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/command-r-plus-04-2024",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Command R+ (04-2024) added to statlyte coverage",
+      "detail": "First observed at $3 in / $15 out per million tokens."
+    },
+    {
+      "id": 47,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/command-r-03-2024",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Command R (03-2024) added to statlyte coverage",
+      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
+    },
+    {
+      "id": 46,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/command-light",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Command Light added to statlyte coverage",
+      "detail": "First observed at $0.3 in / $0.6 out per million tokens."
+    },
+    {
+      "id": 45,
+      "occurred_at": "2026-08-07 22:20:47",
+      "source_url": "https://cohere.com/pricing",
+      "model_id": "cohere/command",
+      "provider_id": "cohere",
+      "kind": "coverage",
+      "headline": "Command added to statlyte coverage",
+      "detail": "First observed at $1 in / $2 out per million tokens."
+    },
+    {
+      "id": 44,
+      "occurred_at": "2026-08-07 19:44:55",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/gpt-oss-20b",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "GPT-OSS 20B added to statlyte coverage",
+      "detail": "First observed at $0.075 in / $0.3 out per million tokens."
+    },
+    {
+      "id": 43,
+      "occurred_at": "2026-08-07 19:44:55",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/gpt-oss-120b",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "GPT-OSS 120B added to statlyte coverage",
+      "detail": "First observed at $0.15 in / $0.6 out per million tokens."
+    },
+    {
+      "id": 42,
+      "occurred_at": "2026-08-07 19:44:55",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/llama-3-3-70b-versatile",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Llama 3.3 70B Versatile added to statlyte coverage",
+      "detail": "First observed at $0.59 in / $0.79 out per million tokens."
+    },
+    {
+      "id": 41,
+      "occurred_at": "2026-08-07 19:44:55",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/llama-3-1-8b-instant",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Llama 3.1 8B Instant added to statlyte coverage",
+      "detail": "First observed at $0.05 in / $0.08 out per million tokens."
+    },
+    {
+      "id": 40,
+      "occurred_at": "2026-08-07 19:41:18",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/ternary-bonsai-27b",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Ternary Bonsai 27B",
+      "detail": "Launch pricing: $0 in / $0 out per million tokens."
+    },
+    {
+      "id": 39,
+      "occurred_at": "2026-08-07 19:41:18",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/gemma-4-31b-it-pearl-ai",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Gemma 4 31B Instruct (Pearl AI)",
+      "detail": "Launch pricing: $0.28 in / $0.86 out per million tokens."
+    },
+    {
+      "id": 38,
+      "occurred_at": "2026-08-07 19:41:18",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/cogito-v2-1-671b",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Cogito v2.1 671B",
+      "detail": "Launch pricing: $1.25 in / $1.25 out per million tokens."
+    },
+    {
+      "id": 37,
+      "occurred_at": "2026-08-07 19:41:18",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/inkling-small",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Inkling Small",
+      "detail": "Launch pricing: $0.5 in / $1.2 out per million tokens."
+    },
     {
       "id": 36,
       "occurred_at": "2026-08-07 13:03:13",
@@ -351,17 +501,6 @@
       "kind": "new_model",
       "headline": "xAI added Grok 4.20 Reasoning",
       "detail": "Launch pricing: $1.25 in / $2.5 out per million tokens."
-    },
-    {
-      "id": 1,
-      "occurred_at": "2026-08-07 12:23:04",
-      "source_url": "https://developers.openai.com/api/docs/pricing",
-      "model_id": "openai/gpt-3-5-turbo",
-      "provider_id": "openai",
-      "kind": "retirement",
-      "old_value": "ga",
-      "new_value": "retired",
-      "headline": "GPT-3.5 Turbo has been retired"
     }
   ]
 }
