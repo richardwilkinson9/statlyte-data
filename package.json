@@ -1,6 +1,6 @@
 {
   "name": "statlyte",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.richardwilkinson9/statlyte",
   "description": "Live pricing, context windows and identifiers for every major LLM API. Stop hardcoding a model table that goes stale.",
   "type": "module",

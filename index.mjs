@@ -29,8 +29,10 @@ function normalise(raw) {
     modality: m.modality ?? 'text',
     contextWindow: m.context_window ?? m.contextWindow ?? null,
     maxOutput: m.max_output ?? m.maxOutput ?? null,
-    /** USD per million tokens. */
+    /** USD per million tokens. Empty object for models priced only via nonTokenPrice. */
     prices: m.usd_per_mtok ?? m.prices ?? {},
+    /** For audio/image/video models billed per unit instead of per token, e.g. { unit: 'per_minute', amount: 0.0077 }. */
+    nonTokenPrice: m.non_token_price ?? m.nonTokenPrice ?? null,
     scheduledChange: m.scheduled_change ?? m.scheduledChange ?? null,
     notes: m.notes ?? null,
   }));
@@ -76,6 +78,12 @@ export async function costOf(idOrApiId, tokens = {}, opts = {}) {
   const m = await getModel(idOrApiId, opts);
   if (!m) throw new Error(`statlyte: unknown model "${idOrApiId}"`);
   const p = m.prices;
+  if (p.input == null && p.output == null) {
+    const priced = m.nonTokenPrice
+      ? ` It's priced at $${m.nonTokenPrice.amount} ${m.nonTokenPrice.unit} instead — read m.nonTokenPrice directly.`
+      : '';
+    throw new Error(`statlyte: "${idOrApiId}" has no per-token pricing.${priced}`);
+  }
   const per = (n, rate) => ((n ?? 0) / 1e6) * (rate ?? 0);
   return (
     per(tokens.input, p.input) +

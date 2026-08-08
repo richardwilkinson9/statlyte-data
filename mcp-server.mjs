@@ -16,7 +16,7 @@ const TOOLS = [
   {
     name: 'list_models',
     description:
-      'List LLM models with current published pricing (USD per million tokens), context windows and API identifiers. Optionally filter by provider.',
+      'List LLM models with current published pricing (USD per million tokens, or nonTokenPrice for audio/image models billed per minute/character/etc), context windows and API identifiers. Optionally filter by provider.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -85,6 +85,7 @@ async function call(name, args = {}) {
         .map((m) => ({
           id: m.id, name: m.name, apiId: m.apiId, provider: m.provider,
           contextWindow: m.contextWindow, usdPerMTok: m.prices,
+          nonTokenPrice: m.nonTokenPrice,
         }));
       return { count: rows.length, models: rows, note: CAVEAT };
     }
@@ -131,7 +132,7 @@ async function handle(req) {
       result: {
         protocolVersion: params?.protocolVersion ?? '2024-11-05',
         capabilities: { tools: {} },
-        serverInfo: { name: 'statlyte', version: '0.1.0' },
+        serverInfo: { name: 'statlyte', version: '0.1.1' },
       },
     };
   }

@@ -15,7 +15,7 @@ const PRICES = {
 Then a model is retired, a new one lands, an introductory rate expires, and your cost
 dashboard is quietly lying to you. This package fetches the current numbers instead.
 
-- **137 models across 11 providers** — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Together AI, Voyage AI, Groq, Cohere, Fireworks AI
+- **146 models across 12 providers** — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Together AI, Voyage AI, Groq, Cohere, Fireworks AI, Deepgram
 - Read from each vendor's **own published pricing page**, every three hours, with the source URL recorded
 - **Zero dependencies.** Node, Bun, Deno, Cloudflare Workers, browser
 - Bundled snapshot fallback, so a flaky network never throws in your request path
@@ -54,6 +54,11 @@ await scheduledChanges();
 
 Everything is cached in-process for six hours. Pass `{ offline: true }` to any call to
 use only the bundled snapshot and never touch the network.
+
+Audio/transcription models (Deepgram, OpenAI Whisper/TTS) aren't priced per token — they carry
+`m.nonTokenPrice` (`{ unit: 'per_minute' | 'per_million_characters', amount }`) instead, and
+`m.prices` is `{}`. `costOf()` throws a clear error rather than silently returning 0 if you call
+it on one of these; check `m.nonTokenPrice` first, or filter on `m.prices.input != null`.
 
 ## Fail your build when a price is about to change
 
