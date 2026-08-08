@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-08-07",
   "source": "https://statlyte.com/models",
-  "count": 125,
+  "count": 137,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1981,6 +1981,198 @@
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/aya-expanse-32b"
+    },
+    {
+      "id": "fireworks/kimi-k3",
+      "provider": "fireworks",
+      "name": "Kimi K3",
+      "api_id": "accounts/fireworks/models/kimi-k3",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 3,
+        "output": 15,
+        "cache_read": 0.3
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/kimi-k3"
+    },
+    {
+      "id": "fireworks/kimi-k2-7-code",
+      "provider": "fireworks",
+      "name": "Kimi K2.7 Code",
+      "api_id": "accounts/fireworks/models/kimi-k2p7-code",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.95,
+        "output": 4,
+        "cache_read": 0.19
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/kimi-k2-7-code"
+    },
+    {
+      "id": "fireworks/kimi-k2-6",
+      "provider": "fireworks",
+      "name": "Kimi K2.6",
+      "api_id": "accounts/fireworks/models/kimi-k2p6",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.95,
+        "output": 4,
+        "cache_read": 0.16
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/kimi-k2-6"
+    },
+    {
+      "id": "fireworks/deepseek-v4-pro",
+      "provider": "fireworks",
+      "name": "DeepSeek V4 Pro",
+      "api_id": "accounts/fireworks/models/deepseek-v4-pro",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 1.74,
+        "output": 3.48,
+        "cache_read": 0.145
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/deepseek-v4-pro"
+    },
+    {
+      "id": "fireworks/deepseek-v4-flash",
+      "provider": "fireworks",
+      "name": "DeepSeek V4 Flash",
+      "api_id": "accounts/fireworks/models/deepseek-v4-flash",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.14,
+        "output": 0.28,
+        "cache_read": 0.028
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/deepseek-v4-flash"
+    },
+    {
+      "id": "fireworks/glm-5-2",
+      "provider": "fireworks",
+      "name": "GLM 5.2",
+      "api_id": "accounts/fireworks/models/glm-5p2",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 1.4,
+        "output": 4.4,
+        "cache_read": 0.14
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/glm-5-2"
+    },
+    {
+      "id": "fireworks/glm-5-1",
+      "provider": "fireworks",
+      "name": "GLM 5.1",
+      "api_id": "accounts/fireworks/models/glm-5p1",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 1.4,
+        "output": 4.4,
+        "cache_read": 0.26
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/glm-5-1"
+    },
+    {
+      "id": "fireworks/qwen3-7-plus",
+      "provider": "fireworks",
+      "name": "Qwen3.7 Plus",
+      "api_id": "accounts/fireworks/models/qwen3p7-plus",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.4,
+        "output": 1.6,
+        "cache_read": 0.08
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/qwen3-7-plus"
+    },
+    {
+      "id": "fireworks/minimax-m3",
+      "provider": "fireworks",
+      "name": "MiniMax M3",
+      "api_id": "accounts/fireworks/models/minimax-m3",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.3,
+        "output": 1.2,
+        "cache_read": 0.06
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/minimax-m3"
+    },
+    {
+      "id": "fireworks/minimax-m2-7",
+      "provider": "fireworks",
+      "name": "MiniMax M2.7",
+      "api_id": "accounts/fireworks/models/minimax-m2p7",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.3,
+        "output": 1.2,
+        "cache_read": 0.06
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/minimax-m2-7"
+    },
+    {
+      "id": "fireworks/gpt-oss-120b",
+      "provider": "fireworks",
+      "name": "GPT-OSS 120B",
+      "api_id": "accounts/fireworks/models/gpt-oss-120b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.15,
+        "output": 0.6,
+        "cache_read": 0.015
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/gpt-oss-120b"
+    },
+    {
+      "id": "fireworks/gpt-oss-20b",
+      "provider": "fireworks",
+      "name": "GPT-OSS 20B",
+      "api_id": "accounts/fireworks/models/gpt-oss-20b",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.07,
+        "output": 0.3,
+        "cache_read": 0.035
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/fireworks/gpt-oss-20b"
     }
   ]
 }

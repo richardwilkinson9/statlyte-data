@@ -3,6 +3,126 @@
   "pro": false,
   "changes": [
     {
+      "id": 63,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/gpt-oss-20b",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "GPT-OSS 20B added to statlyte coverage",
+      "detail": "First observed at $0.07 in / $0.3 out per million tokens."
+    },
+    {
+      "id": 62,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/gpt-oss-120b",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "GPT-OSS 120B added to statlyte coverage",
+      "detail": "First observed at $0.15 in / $0.6 out per million tokens."
+    },
+    {
+      "id": 61,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/minimax-m2-7",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "MiniMax M2.7 added to statlyte coverage",
+      "detail": "First observed at $0.3 in / $1.2 out per million tokens."
+    },
+    {
+      "id": 60,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/minimax-m3",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "MiniMax M3 added to statlyte coverage",
+      "detail": "First observed at $0.3 in / $1.2 out per million tokens."
+    },
+    {
+      "id": 59,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/qwen3-7-plus",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "Qwen3.7 Plus added to statlyte coverage",
+      "detail": "First observed at $0.4 in / $1.6 out per million tokens."
+    },
+    {
+      "id": 58,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/glm-5-1",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "GLM 5.1 added to statlyte coverage",
+      "detail": "First observed at $1.4 in / $4.4 out per million tokens."
+    },
+    {
+      "id": 57,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/glm-5-2",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "GLM 5.2 added to statlyte coverage",
+      "detail": "First observed at $1.4 in / $4.4 out per million tokens."
+    },
+    {
+      "id": 56,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/deepseek-v4-flash",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "DeepSeek V4 Flash added to statlyte coverage",
+      "detail": "First observed at $0.14 in / $0.28 out per million tokens."
+    },
+    {
+      "id": 55,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/deepseek-v4-pro",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "DeepSeek V4 Pro added to statlyte coverage",
+      "detail": "First observed at $1.74 in / $3.48 out per million tokens."
+    },
+    {
+      "id": 54,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/kimi-k2-6",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "Kimi K2.6 added to statlyte coverage",
+      "detail": "First observed at $0.95 in / $4 out per million tokens."
+    },
+    {
+      "id": 53,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/kimi-k2-7-code",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "Kimi K2.7 Code added to statlyte coverage",
+      "detail": "First observed at $0.95 in / $4 out per million tokens."
+    },
+    {
+      "id": 52,
+      "occurred_at": "2026-08-08 07:26:49",
+      "source_url": "https://docs.fireworks.ai/serverless/pricing",
+      "model_id": "fireworks/kimi-k3",
+      "provider_id": "fireworks",
+      "kind": "coverage",
+      "headline": "Kimi K3 added to statlyte coverage",
+      "detail": "First observed at $3 in / $15 out per million tokens."
+    },
+    {
       "id": 51,
       "occurred_at": "2026-08-07 22:20:47",
       "source_url": "https://cohere.com/pricing",
@@ -381,126 +501,6 @@
       "kind": "coverage",
       "headline": "Voyage Multimodal 3 added to statlyte coverage",
       "detail": null
-    },
-    {
-      "id": 13,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-multimodal-3-5",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Multimodal 3.5 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 12,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-law-2",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Law 2 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 11,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-finance-2",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Finance 2 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 10,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-multilingual-2",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Multilingual 2 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 9,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-code-2",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Code 2 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 8,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-code-3",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Code 3 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 7,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-context-4",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Context 4 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 6,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-4-lite",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage 4 Lite added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 5,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-4",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage 4 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 4,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-4-large",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage 4 Large added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 3,
-      "occurred_at": "2026-08-07 12:23:04",
-      "source_url": "https://docs.x.ai/docs/models",
-      "model_id": "xai/grok-4-20-non-reasoning",
-      "provider_id": "xai",
-      "kind": "new_model",
-      "headline": "xAI added Grok 4.20 Non-Reasoning",
-      "detail": "Launch pricing: $1.25 in / $2.5 out per million tokens."
-    },
-    {
-      "id": 2,
-      "occurred_at": "2026-08-07 12:23:04",
-      "source_url": "https://docs.x.ai/docs/models",
-      "model_id": "xai/grok-4-20-reasoning",
-      "provider_id": "xai",
-      "kind": "new_model",
-      "headline": "xAI added Grok 4.20 Reasoning",
-      "detail": "Launch pricing: $1.25 in / $2.5 out per million tokens."
     }
   ]
 }
