@@ -15,7 +15,7 @@ const PRICES = {
 Then a model is retired, a new one lands, an introductory rate expires, and your cost
 dashboard is quietly lying to you. This package fetches the current numbers instead.
 
-- **110 models across 8 providers** — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Together AI, Voyage AI
+- **125 models across 10 providers** — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Together AI, Voyage AI, Groq, Cohere
 - Read from each vendor's **own published pricing page**, every three hours, with the source URL recorded
 - **Zero dependencies.** Node, Bun, Deno, Cloudflare Workers, browser
 - Bundled snapshot fallback, so a flaky network never throws in your request path
