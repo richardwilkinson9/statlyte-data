@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-08-07",
   "source": "https://statlyte.com/models",
-  "count": 137,
+  "count": 146,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -20,6 +20,7 @@
         "batch_input": 5,
         "batch_output": 25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-fable-5"
     },
@@ -40,6 +41,7 @@
         "batch_input": 5,
         "batch_output": 25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-mythos-5"
     },
@@ -60,6 +62,7 @@
         "batch_input": 2.5,
         "batch_output": 12.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-5"
     },
@@ -80,6 +83,7 @@
         "batch_input": 2.5,
         "batch_output": 12.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4-8"
     },
@@ -100,6 +104,7 @@
         "batch_input": 2.5,
         "batch_output": 12.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4-7"
     },
@@ -120,6 +125,7 @@
         "batch_input": 2.5,
         "batch_output": 12.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4-6"
     },
@@ -140,6 +146,7 @@
         "batch_input": 2.5,
         "batch_output": 12.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4-5"
     },
@@ -160,6 +167,7 @@
         "batch_input": 7.5,
         "batch_output": 37.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4-1"
     },
@@ -180,6 +188,7 @@
         "batch_input": 7.5,
         "batch_output": 37.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-opus-4"
     },
@@ -200,6 +209,7 @@
         "batch_input": 1,
         "batch_output": 5
       },
+      "non_token_price": null,
       "scheduled_change": {
         "effective_on": "2026-09-01",
         "reason": "Introductory pricing ends",
@@ -232,6 +242,7 @@
         "batch_input": 1.5,
         "batch_output": 7.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-sonnet-4-6"
     },
@@ -252,6 +263,7 @@
         "batch_input": 1.5,
         "batch_output": 7.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-sonnet-4-5"
     },
@@ -272,6 +284,7 @@
         "batch_input": 1.5,
         "batch_output": 7.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-sonnet-4"
     },
@@ -292,6 +305,7 @@
         "batch_input": 0.5,
         "batch_output": 2.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-haiku-4-5"
     },
@@ -312,6 +326,7 @@
         "batch_input": 0.4,
         "batch_output": 2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-haiku-3-5"
     },
@@ -328,6 +343,7 @@
         "output": 30,
         "cache_read": 0.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-6-sol"
     },
@@ -344,6 +360,7 @@
         "output": 12,
         "cache_read": 0.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-6-terra"
     },
@@ -360,6 +377,7 @@
         "output": 1.2,
         "cache_read": 0.02
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-6-luna"
     },
@@ -376,6 +394,7 @@
         "output": 30,
         "cache_read": 0.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-5"
     },
@@ -391,6 +410,7 @@
         "input": 30,
         "output": 180
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-5-pro"
     },
@@ -407,6 +427,7 @@
         "output": 75,
         "cache_read": 1.25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-5-cyber"
     },
@@ -423,6 +444,7 @@
         "output": 15,
         "cache_read": 0.25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-4"
     },
@@ -439,6 +461,7 @@
         "output": 4.5,
         "cache_read": 0.075
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-4-mini"
     },
@@ -455,6 +478,7 @@
         "output": 1.25,
         "cache_read": 0.02
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-4-nano"
     },
@@ -470,6 +494,7 @@
         "input": 30,
         "output": 180
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-4-pro"
     },
@@ -486,6 +511,7 @@
         "output": 14,
         "cache_read": 0.175
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-3-codex"
     },
@@ -502,6 +528,7 @@
         "output": 14,
         "cache_read": 0.175
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-2"
     },
@@ -517,6 +544,7 @@
         "input": 21,
         "output": 168
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-2-pro"
     },
@@ -533,6 +561,7 @@
         "output": 10,
         "cache_read": 0.125
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-1"
     },
@@ -549,6 +578,7 @@
         "output": 10,
         "cache_read": 0.125
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5"
     },
@@ -565,6 +595,7 @@
         "output": 2,
         "cache_read": 0.025
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-mini"
     },
@@ -581,6 +612,7 @@
         "output": 0.4,
         "cache_read": 0.005
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-nano"
     },
@@ -596,6 +628,7 @@
         "input": 15,
         "output": 120
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-5-pro"
     },
@@ -612,6 +645,7 @@
         "output": 8,
         "cache_read": 0.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-4-1"
     },
@@ -628,6 +662,7 @@
         "output": 1.6,
         "cache_read": 0.1
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-4-1-mini"
     },
@@ -644,6 +679,7 @@
         "output": 0.4,
         "cache_read": 0.025
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-4-1-nano"
     },
@@ -660,6 +696,7 @@
         "output": 10,
         "cache_read": 1.25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-4o"
     },
@@ -676,6 +713,7 @@
         "output": 0.6,
         "cache_read": 0.075
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-4o-mini"
     },
@@ -692,6 +730,7 @@
         "output": 8,
         "cache_read": 0.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o3"
     },
@@ -707,6 +746,7 @@
         "input": 20,
         "output": 80
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o3-pro"
     },
@@ -723,6 +763,7 @@
         "output": 4.4,
         "cache_read": 0.55
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o3-mini"
     },
@@ -739,6 +780,7 @@
         "output": 4.4,
         "cache_read": 0.275
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o4-mini"
     },
@@ -755,6 +797,7 @@
         "output": 60,
         "cache_read": 7.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o1"
     },
@@ -770,6 +813,7 @@
         "input": 150,
         "output": 600
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/o1-pro"
     },
@@ -785,6 +829,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/gpt-3-5-turbo"
     },
@@ -799,6 +844,7 @@
       "usd_per_mtok": {
         "input": 0.02
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/text-embedding-3-small"
     },
@@ -813,8 +859,89 @@
       "usd_per_mtok": {
         "input": 0.13
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/openai/text-embedding-3-large"
+    },
+    {
+      "id": "openai/gpt-transcribe",
+      "provider": "openai",
+      "name": "GPT Transcribe",
+      "api_id": "gpt-transcribe",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.0045
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/openai/gpt-transcribe"
+    },
+    {
+      "id": "openai/gpt-live-transcribe",
+      "provider": "openai",
+      "name": "GPT Live Transcribe",
+      "api_id": "gpt-live-transcribe",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.017
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/openai/gpt-live-transcribe"
+    },
+    {
+      "id": "openai/whisper-1",
+      "provider": "openai",
+      "name": "Whisper",
+      "api_id": "whisper-1",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.006
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/openai/whisper-1"
+    },
+    {
+      "id": "openai/tts-1",
+      "provider": "openai",
+      "name": "TTS-1",
+      "api_id": "tts-1",
+      "status": "ga",
+      "modality": "audio-tts",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 15
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/openai/tts-1"
+    },
+    {
+      "id": "openai/tts-1-hd",
+      "provider": "openai",
+      "name": "TTS-1 HD",
+      "api_id": "tts-1-hd",
+      "status": "ga",
+      "modality": "audio-tts",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 30
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/openai/tts-1-hd"
     },
     {
       "id": "google/gemini-3-6-flash",
@@ -829,6 +956,7 @@
         "output": 7.5,
         "cache_read": 0.15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-6-flash"
     },
@@ -845,6 +973,7 @@
         "output": 9,
         "cache_read": 0.15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-5-flash"
     },
@@ -861,6 +990,7 @@
         "output": 2.5,
         "cache_read": 0.03
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-5-flash-lite"
     },
@@ -877,6 +1007,7 @@
         "output": 12,
         "cache_read": 0.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-1-pro-preview"
     },
@@ -893,6 +1024,7 @@
         "output": 1.5,
         "cache_read": 0.025
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-1-flash-lite"
     },
@@ -909,6 +1041,7 @@
         "output": 3,
         "cache_read": 0.05
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-3-flash-preview"
     },
@@ -925,6 +1058,7 @@
         "output": 10,
         "cache_read": 0.125
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-2-5-pro"
     },
@@ -941,6 +1075,7 @@
         "output": 2.5,
         "cache_read": 0.03
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-2-5-flash"
     },
@@ -957,6 +1092,7 @@
         "output": 0.4,
         "cache_read": 0.01
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-2-5-flash-lite"
     },
@@ -971,6 +1107,7 @@
       "usd_per_mtok": {
         "input": 0.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-embedding-2"
     },
@@ -985,6 +1122,7 @@
       "usd_per_mtok": {
         "input": 0.15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-embedding-001"
     },
@@ -1000,6 +1138,7 @@
         "input": 2,
         "output": 6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-4-5"
     },
@@ -1015,6 +1154,7 @@
         "input": 1.25,
         "output": 2.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-4-3"
     },
@@ -1030,6 +1170,7 @@
         "input": 1,
         "output": 2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-build-0-1"
     },
@@ -1045,6 +1186,7 @@
         "input": 1.25,
         "output": 2.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-4-20-multi-agent"
     },
@@ -1060,6 +1202,7 @@
         "input": 1.25,
         "output": 2.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-4-20-reasoning"
     },
@@ -1075,6 +1218,7 @@
         "input": 1.25,
         "output": 2.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/xai/grok-4-20-non-reasoning"
     },
@@ -1091,6 +1235,7 @@
         "output": 0.28,
         "cache_read": 0.0028
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/deepseek/deepseek-v4-flash"
     },
@@ -1107,6 +1252,7 @@
         "output": 0.87,
         "cache_read": 0.003625
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/deepseek/deepseek-v4-pro"
     },
@@ -1122,6 +1268,7 @@
         "input": 1.5,
         "output": 7.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/mistral-medium-3-5"
     },
@@ -1137,6 +1284,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/mistral-large-3"
     },
@@ -1152,6 +1300,7 @@
         "input": 0.15,
         "output": 0.6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/mistral-small-4"
     },
@@ -1167,6 +1316,7 @@
         "input": 0.4,
         "output": 2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/devstral-2"
     },
@@ -1182,6 +1332,7 @@
         "input": 0.1,
         "output": 0.3
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/devstral-small-2"
     },
@@ -1197,6 +1348,7 @@
         "input": 0.3,
         "output": 0.9
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/codestral"
     },
@@ -1212,6 +1364,7 @@
         "input": 2,
         "output": 5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/magistral-medium"
     },
@@ -1227,6 +1380,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/magistral-small"
     },
@@ -1242,6 +1396,7 @@
         "input": 0.1,
         "output": 0.1
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/ministral-3-3b"
     },
@@ -1257,6 +1412,7 @@
         "input": 0.15,
         "output": 0.15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/ministral-3-8b"
     },
@@ -1272,6 +1428,7 @@
         "input": 0.2,
         "output": 0.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/ministral-3-14b"
     },
@@ -1286,6 +1443,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-4-large"
     },
@@ -1300,6 +1458,7 @@
       "usd_per_mtok": {
         "input": 0.06
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-4"
     },
@@ -1314,6 +1473,7 @@
       "usd_per_mtok": {
         "input": 0.02
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-4-lite"
     },
@@ -1328,6 +1488,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-context-4"
     },
@@ -1342,6 +1503,7 @@
       "usd_per_mtok": {
         "input": 0.18
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-code-3"
     },
@@ -1356,6 +1518,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-code-2"
     },
@@ -1370,6 +1533,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-multilingual-2"
     },
@@ -1384,6 +1548,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-finance-2"
     },
@@ -1398,6 +1563,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-law-2"
     },
@@ -1412,6 +1578,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-multimodal-3-5"
     },
@@ -1426,6 +1593,7 @@
       "usd_per_mtok": {
         "input": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-multimodal-3"
     },
@@ -1440,6 +1608,7 @@
       "usd_per_mtok": {
         "input": 0.05
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/rerank-2-5"
     },
@@ -1454,6 +1623,7 @@
       "usd_per_mtok": {
         "input": 0.02
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/rerank-2-5-lite"
     },
@@ -1469,6 +1639,7 @@
         "input": 1,
         "output": 4.05
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/inkling"
     },
@@ -1484,6 +1655,7 @@
         "input": 0.3,
         "output": 1.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/minimax-m3"
     },
@@ -1499,6 +1671,7 @@
         "input": 1.25,
         "output": 3.75
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/qwen3-7-max"
     },
@@ -1514,6 +1687,7 @@
         "input": 0.5,
         "output": 3
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/qwen3-6-plus"
     },
@@ -1529,6 +1703,7 @@
         "input": 0.17,
         "output": 0.25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/qwen3-5-9b"
     },
@@ -1544,6 +1719,7 @@
         "input": 3,
         "output": 15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/kimi-k3"
     },
@@ -1559,6 +1735,7 @@
         "input": 0.95,
         "output": 4
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/kimi-k2-7-code"
     },
@@ -1574,6 +1751,7 @@
         "input": 1.2,
         "output": 4.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/kimi-k2-6"
     },
@@ -1589,6 +1767,7 @@
         "input": 1.4,
         "output": 4.4
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/glm-5-2"
     },
@@ -1604,6 +1783,7 @@
         "input": 0.15,
         "output": 0.6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/gpt-oss-120b"
     },
@@ -1619,6 +1799,7 @@
         "input": 0.05,
         "output": 0.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/gpt-oss-20b"
     },
@@ -1634,6 +1815,7 @@
         "input": 1.74,
         "output": 3.48
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/deepseek-v4-pro"
     },
@@ -1649,6 +1831,7 @@
         "input": 0.14,
         "output": 0.28
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/deepseek-v4-flash-0731"
     },
@@ -1664,6 +1847,7 @@
         "input": 0.6,
         "output": 3.6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/nemotron-3-ultra-550b-a55b"
     },
@@ -1679,6 +1863,7 @@
         "input": 1.04,
         "output": 1.04
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/llama-3-3-70b-instruct-turbo"
     },
@@ -1694,6 +1879,7 @@
         "input": 0.3,
         "output": 0.3
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/qwen2-5-7b-instruct-turbo"
     },
@@ -1709,6 +1895,7 @@
         "input": 0.39,
         "output": 0.97
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/gemma-4-31b-it"
     },
@@ -1724,6 +1911,7 @@
         "input": 0.32,
         "output": 1.28
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/qwen3-7-plus"
     },
@@ -1739,6 +1927,7 @@
         "input": 0.06,
         "output": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/gemma-3n-e4b-it"
     },
@@ -1754,6 +1943,7 @@
         "input": 0.03,
         "output": 0.12
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/lfm2-5-8b-a1b"
     },
@@ -1769,6 +1959,7 @@
         "input": 0.5,
         "output": 1.2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/inkling-small"
     },
@@ -1784,6 +1975,7 @@
         "input": 1.25,
         "output": 1.25
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/cogito-v2-1-671b"
     },
@@ -1799,6 +1991,7 @@
         "input": 0.28,
         "output": 0.86
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/gemma-4-31b-it-pearl-ai"
     },
@@ -1814,6 +2007,7 @@
         "input": 0,
         "output": 0
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/ternary-bonsai-27b"
     },
@@ -1829,6 +2023,7 @@
         "input": 0.05,
         "output": 0.08
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/groq/llama-3-1-8b-instant"
     },
@@ -1844,6 +2039,7 @@
         "input": 0.59,
         "output": 0.79
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/groq/llama-3-3-70b-versatile"
     },
@@ -1859,6 +2055,7 @@
         "input": 0.15,
         "output": 0.6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/groq/gpt-oss-120b"
     },
@@ -1874,6 +2071,7 @@
         "input": 0.075,
         "output": 0.3
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/groq/gpt-oss-20b"
     },
@@ -1889,6 +2087,7 @@
         "input": 1,
         "output": 2
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/command"
     },
@@ -1904,6 +2103,7 @@
         "input": 0.3,
         "output": 0.6
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/command-light"
     },
@@ -1919,6 +2119,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/command-r-03-2024"
     },
@@ -1934,6 +2135,7 @@
         "input": 3,
         "output": 15
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/command-r-plus-04-2024"
     },
@@ -1949,6 +2151,7 @@
         "input": 2.5,
         "output": 10
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/command-r-plus-08-2024"
     },
@@ -1964,6 +2167,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/aya-expanse-8b"
     },
@@ -1979,6 +2183,7 @@
         "input": 0.5,
         "output": 1.5
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/cohere/aya-expanse-32b"
     },
@@ -1995,6 +2200,7 @@
         "output": 15,
         "cache_read": 0.3
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/kimi-k3"
     },
@@ -2011,6 +2217,7 @@
         "output": 4,
         "cache_read": 0.19
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/kimi-k2-7-code"
     },
@@ -2027,6 +2234,7 @@
         "output": 4,
         "cache_read": 0.16
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/kimi-k2-6"
     },
@@ -2043,6 +2251,7 @@
         "output": 3.48,
         "cache_read": 0.145
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/deepseek-v4-pro"
     },
@@ -2059,6 +2268,7 @@
         "output": 0.28,
         "cache_read": 0.028
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/deepseek-v4-flash"
     },
@@ -2075,6 +2285,7 @@
         "output": 4.4,
         "cache_read": 0.14
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/glm-5-2"
     },
@@ -2091,6 +2302,7 @@
         "output": 4.4,
         "cache_read": 0.26
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/glm-5-1"
     },
@@ -2107,6 +2319,7 @@
         "output": 1.6,
         "cache_read": 0.08
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/qwen3-7-plus"
     },
@@ -2123,6 +2336,7 @@
         "output": 1.2,
         "cache_read": 0.06
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/minimax-m3"
     },
@@ -2139,6 +2353,7 @@
         "output": 1.2,
         "cache_read": 0.06
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/minimax-m2-7"
     },
@@ -2155,6 +2370,7 @@
         "output": 0.6,
         "cache_read": 0.015
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/gpt-oss-120b"
     },
@@ -2171,8 +2387,73 @@
         "output": 0.3,
         "cache_read": 0.035
       },
+      "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/fireworks/gpt-oss-20b"
+    },
+    {
+      "id": "deepgram/flux-general-en",
+      "provider": "deepgram",
+      "name": "Flux English",
+      "api_id": "flux-general-en",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.0077
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/deepgram/flux-general-en"
+    },
+    {
+      "id": "deepgram/nova-3",
+      "provider": "deepgram",
+      "name": "Nova-3",
+      "api_id": "nova-3",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.0077
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/deepgram/nova-3"
+    },
+    {
+      "id": "deepgram/aura-2",
+      "provider": "deepgram",
+      "name": "Aura-2",
+      "api_id": "aura-2-thalia-en",
+      "status": "ga",
+      "modality": "audio-tts",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 30
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/deepgram/aura-2"
+    },
+    {
+      "id": "deepgram/aura-1",
+      "provider": "deepgram",
+      "name": "Aura-1",
+      "api_id": "aura-asteria-en",
+      "status": "ga",
+      "modality": "audio-tts",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 15
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/deepgram/aura-1"
     }
   ]
 }

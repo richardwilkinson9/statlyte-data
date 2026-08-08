@@ -3,6 +3,96 @@
   "pro": false,
   "changes": [
     {
+      "id": 72,
+      "occurred_at": "2026-08-08 16:08:05",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/aura-1",
+      "provider_id": "deepgram",
+      "kind": "coverage",
+      "headline": "Aura-1 added to statlyte coverage",
+      "detail": "First observed at $15 per million characters."
+    },
+    {
+      "id": 71,
+      "occurred_at": "2026-08-08 16:08:05",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/aura-2",
+      "provider_id": "deepgram",
+      "kind": "coverage",
+      "headline": "Aura-2 added to statlyte coverage",
+      "detail": "First observed at $30 per million characters."
+    },
+    {
+      "id": 70,
+      "occurred_at": "2026-08-08 16:08:05",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/nova-3",
+      "provider_id": "deepgram",
+      "kind": "coverage",
+      "headline": "Nova-3 added to statlyte coverage",
+      "detail": "First observed at $0.0077 per minute."
+    },
+    {
+      "id": 69,
+      "occurred_at": "2026-08-08 16:08:05",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/flux-general-en",
+      "provider_id": "deepgram",
+      "kind": "coverage",
+      "headline": "Flux English added to statlyte coverage",
+      "detail": "First observed at $0.0077 per minute."
+    },
+    {
+      "id": 68,
+      "occurred_at": "2026-08-08 13:44:38",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/tts-1-hd",
+      "provider_id": "openai",
+      "kind": "coverage",
+      "headline": "TTS-1 HD added to statlyte coverage",
+      "detail": "First observed at $30 per million characters."
+    },
+    {
+      "id": 67,
+      "occurred_at": "2026-08-08 13:44:38",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/tts-1",
+      "provider_id": "openai",
+      "kind": "coverage",
+      "headline": "TTS-1 added to statlyte coverage",
+      "detail": "First observed at $15 per million characters."
+    },
+    {
+      "id": 66,
+      "occurred_at": "2026-08-08 13:44:38",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/whisper-1",
+      "provider_id": "openai",
+      "kind": "coverage",
+      "headline": "Whisper added to statlyte coverage",
+      "detail": "First observed at $0.006 per minute."
+    },
+    {
+      "id": 65,
+      "occurred_at": "2026-08-08 13:44:38",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/gpt-live-transcribe",
+      "provider_id": "openai",
+      "kind": "coverage",
+      "headline": "GPT Live Transcribe added to statlyte coverage",
+      "detail": "First observed at $0.017 per minute."
+    },
+    {
+      "id": 64,
+      "occurred_at": "2026-08-08 13:44:38",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/gpt-transcribe",
+      "provider_id": "openai",
+      "kind": "coverage",
+      "headline": "GPT Transcribe added to statlyte coverage",
+      "detail": "First observed at $0.0045 per minute."
+    },
+    {
       "id": 63,
       "occurred_at": "2026-08-08 07:26:49",
       "source_url": "https://docs.fireworks.ai/serverless/pricing",
@@ -411,96 +501,6 @@
       "kind": "coverage",
       "headline": "Kimi K2.7 Code added to statlyte coverage",
       "detail": "First observed at $0.95 in / $4 out per million tokens."
-    },
-    {
-      "id": 22,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/kimi-k3",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Kimi K3 added to statlyte coverage",
-      "detail": "First observed at $3 in / $15 out per million tokens."
-    },
-    {
-      "id": 21,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/qwen3-5-9b",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Qwen3.5 9B added to statlyte coverage",
-      "detail": "First observed at $0.17 in / $0.25 out per million tokens."
-    },
-    {
-      "id": 20,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/qwen3-6-plus",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Qwen3.6 Plus added to statlyte coverage",
-      "detail": "First observed at $0.5 in / $3 out per million tokens."
-    },
-    {
-      "id": 19,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/qwen3-7-max",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Qwen3.7 Max added to statlyte coverage",
-      "detail": "First observed at $1.25 in / $3.75 out per million tokens."
-    },
-    {
-      "id": 18,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/minimax-m3",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "MiniMax M3 added to statlyte coverage",
-      "detail": "First observed at $0.3 in / $1.2 out per million tokens."
-    },
-    {
-      "id": 17,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/inkling",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Inkling added to statlyte coverage",
-      "detail": "First observed at $1 in / $4.05 out per million tokens."
-    },
-    {
-      "id": 16,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/rerank-2-5-lite",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Rerank 2.5 Lite added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 15,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/rerank-2-5",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Rerank 2.5 added to statlyte coverage",
-      "detail": null
-    },
-    {
-      "id": 14,
-      "occurred_at": "2026-08-07 12:25:37",
-      "source_url": "https://docs.voyageai.com/docs/pricing",
-      "model_id": "voyage/voyage-multimodal-3",
-      "provider_id": "voyage",
-      "kind": "coverage",
-      "headline": "Voyage Multimodal 3 added to statlyte coverage",
-      "detail": null
     }
   ]
 }
