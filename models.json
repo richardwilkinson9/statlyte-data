@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-08-07",
   "source": "https://statlyte.com/models",
-  "count": 146,
+  "count": 155,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1136,7 +1136,8 @@
       "context_window": 500000,
       "usd_per_mtok": {
         "input": 2,
-        "output": 6
+        "output": 6,
+        "cache_read": 0.3
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1152,7 +1153,8 @@
       "context_window": 1000000,
       "usd_per_mtok": {
         "input": 1.25,
-        "output": 2.5
+        "output": 2.5,
+        "cache_read": 0.2
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1168,7 +1170,8 @@
       "context_window": 256000,
       "usd_per_mtok": {
         "input": 1,
-        "output": 2
+        "output": 2,
+        "cache_read": 0.2
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1184,7 +1187,8 @@
       "context_window": 1000000,
       "usd_per_mtok": {
         "input": 1.25,
-        "output": 2.5
+        "output": 2.5,
+        "cache_read": 0.2
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1200,7 +1204,8 @@
       "context_window": 1000000,
       "usd_per_mtok": {
         "input": 1.25,
-        "output": 2.5
+        "output": 2.5,
+        "cache_read": 0.2
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1216,7 +1221,8 @@
       "context_window": 1000000,
       "usd_per_mtok": {
         "input": 1.25,
-        "output": 2.5
+        "output": 2.5,
+        "cache_read": 0.2
       },
       "non_token_price": null,
       "scheduled_change": null,
@@ -1433,6 +1439,52 @@
       "url": "https://statlyte.com/models/mistral/ministral-3-14b"
     },
     {
+      "id": "mistral/mistral-nemo",
+      "provider": "mistral",
+      "name": "Mistral NeMo",
+      "api_id": "open-mistral-nemo",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.15,
+        "output": 0.15
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/mistral/mistral-nemo"
+    },
+    {
+      "id": "mistral/mistral-embed",
+      "provider": "mistral",
+      "name": "Mistral Embed",
+      "api_id": "mistral-embed",
+      "status": "ga",
+      "modality": "embedding",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.1
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/mistral/mistral-embed"
+    },
+    {
+      "id": "mistral/codestral-embed",
+      "provider": "mistral",
+      "name": "Codestral Embed",
+      "api_id": "codestral-embed",
+      "status": "ga",
+      "modality": "embedding",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.15
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/mistral/codestral-embed"
+    },
+    {
       "id": "voyage/voyage-4-large",
       "provider": "voyage",
       "name": "Voyage 4 Large",
@@ -1626,6 +1678,36 @@
       "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/rerank-2-5-lite"
+    },
+    {
+      "id": "voyage/rerank-2",
+      "provider": "voyage",
+      "name": "Rerank 2",
+      "api_id": "rerank-2",
+      "status": "ga",
+      "modality": "embedding",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.05
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/voyage/rerank-2"
+    },
+    {
+      "id": "voyage/rerank-2-lite",
+      "provider": "voyage",
+      "name": "Rerank 2 Lite",
+      "api_id": "rerank-2-lite",
+      "status": "ga",
+      "modality": "embedding",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.02
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/voyage/rerank-2-lite"
     },
     {
       "id": "together/inkling",
@@ -2076,6 +2158,38 @@
       "url": "https://statlyte.com/models/groq/gpt-oss-20b"
     },
     {
+      "id": "groq/whisper-large-v3",
+      "provider": "groq",
+      "name": "Whisper Large V3",
+      "api_id": "whisper-large-v3",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.00185
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/whisper-large-v3"
+    },
+    {
+      "id": "groq/whisper-large-v3-turbo",
+      "provider": "groq",
+      "name": "Whisper Large V3 Turbo",
+      "api_id": "whisper-large-v3-turbo",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.000667
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/whisper-large-v3-turbo"
+    },
+    {
       "id": "cohere/command",
       "provider": "cohere",
       "name": "Command",
@@ -2454,6 +2568,38 @@
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/deepgram/aura-1"
+    },
+    {
+      "id": "assemblyai/universal-3-5-pro",
+      "provider": "assemblyai",
+      "name": "Universal-3.5 Pro",
+      "api_id": "universal-3-5-pro",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.0035
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/assemblyai/universal-3-5-pro"
+    },
+    {
+      "id": "assemblyai/universal-2",
+      "provider": "assemblyai",
+      "name": "Universal-2",
+      "api_id": "universal-2",
+      "status": "ga",
+      "modality": "audio-transcription",
+      "context_window": null,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_minute",
+        "amount": 0.0025
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/assemblyai/universal-2"
     }
   ]
 }

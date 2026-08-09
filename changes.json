@@ -3,6 +3,96 @@
   "pro": false,
   "changes": [
     {
+      "id": 81,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/whisper-large-v3-turbo",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Whisper Large V3 Turbo added to statlyte coverage",
+      "detail": "First observed at $0.000667 per minute."
+    },
+    {
+      "id": 80,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/whisper-large-v3",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Whisper Large V3 added to statlyte coverage",
+      "detail": "First observed at $0.00185 per minute."
+    },
+    {
+      "id": 79,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://docs.voyageai.com/docs/pricing",
+      "model_id": "voyage/rerank-2-lite",
+      "provider_id": "voyage",
+      "kind": "coverage",
+      "headline": "Rerank 2 Lite added to statlyte coverage",
+      "detail": "Prior-generation reranker, superseded by Rerank 2.5 Lite but still listed and priced. First observed at $0.02 per million tokens."
+    },
+    {
+      "id": 78,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://docs.voyageai.com/docs/pricing",
+      "model_id": "voyage/rerank-2",
+      "provider_id": "voyage",
+      "kind": "coverage",
+      "headline": "Rerank 2 added to statlyte coverage",
+      "detail": "Prior-generation reranker, superseded by Rerank 2.5 but still listed and priced. First observed at $0.05 per million tokens."
+    },
+    {
+      "id": 77,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/codestral-embed",
+      "provider_id": "mistral",
+      "kind": "coverage",
+      "headline": "Codestral Embed added to statlyte coverage",
+      "detail": null
+    },
+    {
+      "id": 76,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/mistral-embed",
+      "provider_id": "mistral",
+      "kind": "coverage",
+      "headline": "Mistral Embed added to statlyte coverage",
+      "detail": null
+    },
+    {
+      "id": 75,
+      "occurred_at": "2026-08-09 04:58:18",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/mistral-nemo",
+      "provider_id": "mistral",
+      "kind": "coverage",
+      "headline": "Mistral NeMo added to statlyte coverage",
+      "detail": "First observed at $0.15 in / $0.15 out per million tokens."
+    },
+    {
+      "id": 74,
+      "occurred_at": "2026-08-09 02:54:11",
+      "source_url": "https://www.assemblyai.com/pricing",
+      "model_id": "assemblyai/universal-2",
+      "provider_id": "assemblyai",
+      "kind": "coverage",
+      "headline": "Universal-2 added to statlyte coverage",
+      "detail": "First observed at $0.0025 per minute."
+    },
+    {
+      "id": 73,
+      "occurred_at": "2026-08-09 02:54:11",
+      "source_url": "https://www.assemblyai.com/pricing",
+      "model_id": "assemblyai/universal-3-5-pro",
+      "provider_id": "assemblyai",
+      "kind": "coverage",
+      "headline": "Universal-3.5 Pro added to statlyte coverage",
+      "detail": "First observed at $0.0035 per minute."
+    },
+    {
       "id": 72,
       "occurred_at": "2026-08-08 16:08:05",
       "source_url": "https://deepgram.com/pricing",
@@ -411,96 +501,6 @@
       "kind": "coverage",
       "headline": "Qwen2.5 7B Instruct Turbo added to statlyte coverage",
       "detail": "First observed at $0.3 in / $0.3 out per million tokens."
-    },
-    {
-      "id": 31,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/llama-3-3-70b-instruct-turbo",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Llama 3.3 70B Instruct Turbo added to statlyte coverage",
-      "detail": "First observed at $1.04 in / $1.04 out per million tokens."
-    },
-    {
-      "id": 30,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/nemotron-3-ultra-550b-a55b",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Nemotron 3 Ultra 550B-A55B added to statlyte coverage",
-      "detail": "First observed at $0.6 in / $3.6 out per million tokens."
-    },
-    {
-      "id": 29,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/deepseek-v4-flash-0731",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "DeepSeek V4 Flash (0731) added to statlyte coverage",
-      "detail": "First observed at $0.14 in / $0.28 out per million tokens."
-    },
-    {
-      "id": 28,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/deepseek-v4-pro",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "DeepSeek V4 Pro added to statlyte coverage",
-      "detail": "First observed at $1.74 in / $3.48 out per million tokens."
-    },
-    {
-      "id": 27,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/gpt-oss-20b",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "GPT-OSS 20B added to statlyte coverage",
-      "detail": "First observed at $0.05 in / $0.2 out per million tokens."
-    },
-    {
-      "id": 26,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/gpt-oss-120b",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "GPT-OSS 120B added to statlyte coverage",
-      "detail": "First observed at $0.15 in / $0.6 out per million tokens."
-    },
-    {
-      "id": 25,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/glm-5-2",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "GLM-5.2 added to statlyte coverage",
-      "detail": "First observed at $1.4 in / $4.4 out per million tokens."
-    },
-    {
-      "id": 24,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/kimi-k2-6",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Kimi K2.6 added to statlyte coverage",
-      "detail": "First observed at $1.2 in / $4.5 out per million tokens."
-    },
-    {
-      "id": 23,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/kimi-k2-7-code",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Kimi K2.7 Code added to statlyte coverage",
-      "detail": "First observed at $0.95 in / $4 out per million tokens."
     }
   ]
 }
