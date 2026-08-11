@@ -3,6 +3,16 @@
   "pro": false,
   "changes": [
     {
+      "id": 82,
+      "occurred_at": "2026-08-11 04:55:37",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/gpt-5-6-cyber",
+      "provider_id": "openai",
+      "kind": "new_model",
+      "headline": "OpenAI launched GPT-5.6 Cyber",
+      "detail": "Launch pricing: $12.5 in / $75 out per million tokens."
+    },
+    {
       "id": 81,
       "occurred_at": "2026-08-09 04:58:18",
       "source_url": "https://console.groq.com/docs/models",
@@ -491,16 +501,6 @@
       "kind": "coverage",
       "headline": "Gemma 4 31B IT added to statlyte coverage",
       "detail": "First observed at $0.39 in / $0.97 out per million tokens."
-    },
-    {
-      "id": 32,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/qwen2-5-7b-instruct-turbo",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Qwen2.5 7B Instruct Turbo added to statlyte coverage",
-      "detail": "First observed at $0.3 in / $0.3 out per million tokens."
     }
   ]
 }
