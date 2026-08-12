@@ -3,6 +3,43 @@
   "pro": false,
   "changes": [
     {
+      "id": 92,
+      "occurred_at": "2026-08-12 16:43:26",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "model_id": "openai/gpt-3-5-turbo",
+      "provider_id": "openai",
+      "kind": "deprecation",
+      "old_value": "retired",
+      "new_value": "deprecated",
+      "headline": "GPT-3.5 Turbo is now deprecated"
+    },
+    {
+      "id": 91,
+      "occurred_at": "2026-08-12 14:12:35",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/glm-5-2",
+      "provider_id": "together",
+      "kind": "spec_change",
+      "metric": "context_window",
+      "old_value": "262144",
+      "new_value": "512000",
+      "headline": "GLM-5.2 context window changed to 512,000 tokens"
+    },
+    {
+      "id": 90,
+      "occurred_at": "2026-08-12 14:12:35",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/glm-5-2",
+      "provider_id": "mistral",
+      "kind": "price_drop",
+      "metric": "cache_read",
+      "old_value": "$0.26",
+      "new_value": "$0.14",
+      "pct_change": -46.15,
+      "headline": "GLM-5.2 cache read price cut 46% to $0.14/MTok",
+      "detail": "Cache read moved from $0.26 to $0.14 per million tokens."
+    },
+    {
       "id": 89,
       "occurred_at": "2026-08-12 03:14:25",
       "source_url": "https://docs.together.ai/docs/serverless-models",
@@ -476,36 +513,6 @@
       "kind": "coverage",
       "headline": "GPT-OSS 120B added to statlyte coverage",
       "detail": "First observed at $0.15 in / $0.6 out per million tokens."
-    },
-    {
-      "id": 42,
-      "occurred_at": "2026-08-07 19:44:55",
-      "source_url": "https://console.groq.com/docs/models",
-      "model_id": "groq/llama-3-3-70b-versatile",
-      "provider_id": "groq",
-      "kind": "coverage",
-      "headline": "Llama 3.3 70B Versatile added to statlyte coverage",
-      "detail": "First observed at $0.59 in / $0.79 out per million tokens."
-    },
-    {
-      "id": 41,
-      "occurred_at": "2026-08-07 19:44:55",
-      "source_url": "https://console.groq.com/docs/models",
-      "model_id": "groq/llama-3-1-8b-instant",
-      "provider_id": "groq",
-      "kind": "coverage",
-      "headline": "Llama 3.1 8B Instant added to statlyte coverage",
-      "detail": "First observed at $0.05 in / $0.08 out per million tokens."
-    },
-    {
-      "id": 40,
-      "occurred_at": "2026-08-07 19:41:18",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/ternary-bonsai-27b",
-      "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI launched Ternary Bonsai 27B",
-      "detail": "Launch pricing: $0 in / $0 out per million tokens."
     }
   ]
 }
