@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-12",
   "source": "https://statlyte.com/models",
-  "count": 156,
+  "count": 158,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -210,19 +210,7 @@
         "batch_output": 5
       },
       "non_token_price": null,
-      "scheduled_change": {
-        "effective_on": "2026-09-01",
-        "reason": "Introductory pricing ends",
-        "prices": {
-          "input": 3,
-          "output": 15,
-          "cache_write_5m": 3.75,
-          "cache_write_1h": 6,
-          "cache_read": 0.3,
-          "batch_input": 1.5,
-          "batch_output": 7.5
-        }
-      },
+      "scheduled_change": null,
       "url": "https://statlyte.com/models/anthropic/claude-sonnet-5"
     },
     {
@@ -1332,7 +1320,7 @@
       "provider": "mistral",
       "name": "Devstral 2",
       "api_id": "devstral-medium-latest",
-      "status": "ga",
+      "status": "retired",
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
@@ -1348,7 +1336,7 @@
       "provider": "mistral",
       "name": "Devstral Small 2",
       "api_id": "devstral-small-latest",
-      "status": "ga",
+      "status": "retired",
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
@@ -1380,7 +1368,7 @@
       "provider": "mistral",
       "name": "Magistral Medium",
       "api_id": "magistral-medium-latest",
-      "status": "ga",
+      "status": "retired",
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
@@ -1396,7 +1384,7 @@
       "provider": "mistral",
       "name": "Magistral Small",
       "api_id": "magistral-small-latest",
-      "status": "ga",
+      "status": "retired",
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
@@ -1460,7 +1448,7 @@
       "provider": "mistral",
       "name": "Mistral NeMo",
       "api_id": "open-mistral-nemo",
-      "status": "ga",
+      "status": "retired",
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
@@ -1470,6 +1458,23 @@
       "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/mistral/mistral-nemo"
+    },
+    {
+      "id": "mistral/glm-5-2",
+      "provider": "mistral",
+      "name": "GLM-5.2",
+      "api_id": "zai-glm-5-2",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 1.4,
+        "output": 4.4,
+        "cache_read": 0.26
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/mistral/glm-5-2"
     },
     {
       "id": "mistral/mistral-embed",
@@ -2109,6 +2114,23 @@
       "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/together/ternary-bonsai-27b"
+    },
+    {
+      "id": "together/muse-glimmer-30b",
+      "provider": "together",
+      "name": "Muse Glimmer 30B",
+      "api_id": "meta-models/Muse-Glimmer-30B",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.35,
+        "output": 1.5,
+        "cache_read": 0.04
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/muse-glimmer-30b"
     },
     {
       "id": "groq/llama-3-1-8b-instant",

@@ -3,6 +3,81 @@
   "pro": false,
   "changes": [
     {
+      "id": 89,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/muse-glimmer-30b",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Muse Glimmer 30B",
+      "detail": "Launch pricing: $0.35 in / $1.5 out per million tokens."
+    },
+    {
+      "id": 88,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/glm-5-2",
+      "provider_id": "mistral",
+      "kind": "new_model",
+      "headline": "Mistral launched GLM-5.2",
+      "detail": "Launch pricing: $1.4 in / $4.4 out per million tokens."
+    },
+    {
+      "id": 87,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/mistral-nemo",
+      "provider_id": "mistral",
+      "kind": "retirement",
+      "old_value": "ga",
+      "new_value": "retired",
+      "headline": "Mistral NeMo has been retired"
+    },
+    {
+      "id": 86,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/magistral-small",
+      "provider_id": "mistral",
+      "kind": "retirement",
+      "old_value": "ga",
+      "new_value": "retired",
+      "headline": "Magistral Small has been retired"
+    },
+    {
+      "id": 85,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/magistral-medium",
+      "provider_id": "mistral",
+      "kind": "retirement",
+      "old_value": "ga",
+      "new_value": "retired",
+      "headline": "Magistral Medium has been retired"
+    },
+    {
+      "id": 84,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/devstral-small-2",
+      "provider_id": "mistral",
+      "kind": "retirement",
+      "old_value": "ga",
+      "new_value": "retired",
+      "headline": "Devstral Small 2 has been retired"
+    },
+    {
+      "id": 83,
+      "occurred_at": "2026-08-12 03:14:25",
+      "source_url": "https://mistral.ai/pricing/api",
+      "model_id": "mistral/devstral-2",
+      "provider_id": "mistral",
+      "kind": "retirement",
+      "old_value": "ga",
+      "new_value": "retired",
+      "headline": "Devstral 2 has been retired"
+    },
+    {
       "id": 82,
       "occurred_at": "2026-08-11 04:55:37",
       "source_url": "https://developers.openai.com/api/docs/pricing",
@@ -431,76 +506,6 @@
       "kind": "new_model",
       "headline": "Together AI launched Ternary Bonsai 27B",
       "detail": "Launch pricing: $0 in / $0 out per million tokens."
-    },
-    {
-      "id": 39,
-      "occurred_at": "2026-08-07 19:41:18",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/gemma-4-31b-it-pearl-ai",
-      "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI launched Gemma 4 31B Instruct (Pearl AI)",
-      "detail": "Launch pricing: $0.28 in / $0.86 out per million tokens."
-    },
-    {
-      "id": 38,
-      "occurred_at": "2026-08-07 19:41:18",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/cogito-v2-1-671b",
-      "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI launched Cogito v2.1 671B",
-      "detail": "Launch pricing: $1.25 in / $1.25 out per million tokens."
-    },
-    {
-      "id": 37,
-      "occurred_at": "2026-08-07 19:41:18",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/inkling-small",
-      "provider_id": "together",
-      "kind": "new_model",
-      "headline": "Together AI launched Inkling Small",
-      "detail": "Launch pricing: $0.5 in / $1.2 out per million tokens."
-    },
-    {
-      "id": 36,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/lfm2-5-8b-a1b",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "LFM2.5 8B-A1B added to statlyte coverage",
-      "detail": "First observed at $0.03 in / $0.12 out per million tokens."
-    },
-    {
-      "id": 35,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/gemma-3n-e4b-it",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Gemma 3n E4B IT added to statlyte coverage",
-      "detail": "First observed at $0.06 in / $0.12 out per million tokens."
-    },
-    {
-      "id": 34,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/qwen3-7-plus",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Qwen3.7 Plus added to statlyte coverage",
-      "detail": "First observed at $0.32 in / $1.28 out per million tokens."
-    },
-    {
-      "id": 33,
-      "occurred_at": "2026-08-07 13:03:13",
-      "source_url": "https://docs.together.ai/docs/serverless-models",
-      "model_id": "together/gemma-4-31b-it",
-      "provider_id": "together",
-      "kind": "coverage",
-      "headline": "Gemma 4 31B IT added to statlyte coverage",
-      "detail": "First observed at $0.39 in / $0.97 out per million tokens."
     }
   ]
 }
