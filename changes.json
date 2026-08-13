@@ -3,6 +3,16 @@
   "pro": false,
   "changes": [
     {
+      "id": 93,
+      "occurred_at": "2026-08-13 03:18:27",
+      "source_url": "https://docs.x.ai/docs/models",
+      "model_id": "xai/grok-4-6",
+      "provider_id": "xai",
+      "kind": "new_model",
+      "headline": "xAI launched Grok 4.6",
+      "detail": "Launch pricing: $2 in / $6 out per million tokens."
+    },
+    {
       "id": 92,
       "occurred_at": "2026-08-12 16:43:26",
       "source_url": "https://developers.openai.com/api/docs/pricing",
@@ -503,16 +513,6 @@
       "kind": "coverage",
       "headline": "GPT-OSS 20B added to statlyte coverage",
       "detail": "First observed at $0.075 in / $0.3 out per million tokens."
-    },
-    {
-      "id": 43,
-      "occurred_at": "2026-08-07 19:44:55",
-      "source_url": "https://console.groq.com/docs/models",
-      "model_id": "groq/gpt-oss-120b",
-      "provider_id": "groq",
-      "kind": "coverage",
-      "headline": "GPT-OSS 120B added to statlyte coverage",
-      "detail": "First observed at $0.15 in / $0.6 out per million tokens."
     }
   ]
 }

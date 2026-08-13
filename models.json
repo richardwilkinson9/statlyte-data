@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-08-12",
   "source": "https://statlyte.com/models",
-  "count": 158,
+  "count": 159,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -1130,6 +1130,23 @@
       "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/google/gemini-embedding-001"
+    },
+    {
+      "id": "xai/grok-4-6",
+      "provider": "xai",
+      "name": "Grok 4.6",
+      "api_id": "grok-4.6",
+      "status": "ga",
+      "modality": "text",
+      "context_window": 500000,
+      "usd_per_mtok": {
+        "input": 2,
+        "output": 6,
+        "cache_read": 0.5
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/xai/grok-4-6"
     },
     {
       "id": "xai/grok-4-5",
