@@ -3,6 +3,76 @@
   "pro": false,
   "changes": [
     {
+      "id": 100,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/orpheus-v1-english",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Orpheus V1 English added to statlyte coverage",
+      "detail": "First observed at $22 per million characters."
+    },
+    {
+      "id": 99,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/orpheus-arabic-saudi",
+      "provider_id": "groq",
+      "kind": "coverage",
+      "headline": "Orpheus Arabic Saudi added to statlyte coverage",
+      "detail": "First observed at $40 per million characters."
+    },
+    {
+      "id": 98,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/qwen3-6-27b",
+      "provider_id": "groq",
+      "kind": "new_model",
+      "headline": "Groq launched Qwen3.6 27B",
+      "detail": "Launch pricing: $0.6 in / $3 out per million tokens."
+    },
+    {
+      "id": 97,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/gpt-oss-safeguard-20b",
+      "provider_id": "groq",
+      "kind": "new_model",
+      "headline": "Groq launched Safety GPT-OSS 20B",
+      "detail": "Launch pricing: $0.075 in / $0.3 out per million tokens."
+    },
+    {
+      "id": 96,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/llama-prompt-guard-2-86m",
+      "provider_id": "groq",
+      "kind": "new_model",
+      "headline": "Groq launched Llama Prompt Guard 2 86M",
+      "detail": "Launch pricing: $0.04 in / $0.04 out per million tokens."
+    },
+    {
+      "id": 95,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://console.groq.com/docs/models",
+      "model_id": "groq/llama-prompt-guard-2-22m",
+      "provider_id": "groq",
+      "kind": "new_model",
+      "headline": "Groq launched Llama Prompt Guard 2 22M",
+      "detail": "Launch pricing: $0.03 in / $0.03 out per million tokens."
+    },
+    {
+      "id": 94,
+      "occurred_at": "2026-08-13 14:11:22",
+      "source_url": "https://docs.together.ai/docs/serverless-models",
+      "model_id": "together/qwen3-8-2-4t-a95b",
+      "provider_id": "together",
+      "kind": "new_model",
+      "headline": "Together AI launched Qwen3.8 2.4T-A95B",
+      "detail": "Launch pricing: $2.5 in / $6.25 out per million tokens."
+    },
+    {
       "id": 93,
       "occurred_at": "2026-08-13 03:18:27",
       "source_url": "https://docs.x.ai/docs/models",
@@ -443,76 +513,6 @@
       "kind": "coverage",
       "headline": "Aya Expanse 32B added to statlyte coverage",
       "detail": "First observed at $0.5 in / $1.5 out per million tokens."
-    },
-    {
-      "id": 50,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/aya-expanse-8b",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Aya Expanse 8B added to statlyte coverage",
-      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
-    },
-    {
-      "id": 49,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/command-r-plus-08-2024",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Command R+ (08-2024) added to statlyte coverage",
-      "detail": "First observed at $2.5 in / $10 out per million tokens."
-    },
-    {
-      "id": 48,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/command-r-plus-04-2024",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Command R+ (04-2024) added to statlyte coverage",
-      "detail": "First observed at $3 in / $15 out per million tokens."
-    },
-    {
-      "id": 47,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/command-r-03-2024",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Command R (03-2024) added to statlyte coverage",
-      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
-    },
-    {
-      "id": 46,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/command-light",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Command Light added to statlyte coverage",
-      "detail": "First observed at $0.3 in / $0.6 out per million tokens."
-    },
-    {
-      "id": 45,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/command",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Command added to statlyte coverage",
-      "detail": "First observed at $1 in / $2 out per million tokens."
-    },
-    {
-      "id": 44,
-      "occurred_at": "2026-08-07 19:44:55",
-      "source_url": "https://console.groq.com/docs/models",
-      "model_id": "groq/gpt-oss-20b",
-      "provider_id": "groq",
-      "kind": "coverage",
-      "headline": "GPT-OSS 20B added to statlyte coverage",
-      "detail": "First observed at $0.075 in / $0.3 out per million tokens."
     }
   ]
 }

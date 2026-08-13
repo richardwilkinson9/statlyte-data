@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12",
+  "updated_at": "2026-08-13",
   "source": "https://statlyte.com/models",
-  "count": 159,
+  "count": 166,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -2150,6 +2150,22 @@
       "url": "https://statlyte.com/models/together/muse-glimmer-30b"
     },
     {
+      "id": "together/qwen3-8-2-4t-a95b",
+      "provider": "together",
+      "name": "Qwen3.8 2.4T-A95B",
+      "api_id": "Qwen/Qwen3.8-2.4T-A95B",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 2.5,
+        "output": 6.25
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/together/qwen3-8-2-4t-a95b"
+    },
+    {
       "id": "groq/llama-3-1-8b-instant",
       "provider": "groq",
       "name": "Llama 3.1 8B Instant",
@@ -2244,6 +2260,102 @@
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/groq/whisper-large-v3-turbo"
+    },
+    {
+      "id": "groq/llama-prompt-guard-2-22m",
+      "provider": "groq",
+      "name": "Llama Prompt Guard 2 22M",
+      "api_id": "meta-llama/llama-prompt-guard-2-22m",
+      "status": "preview",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.03,
+        "output": 0.03
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/llama-prompt-guard-2-22m"
+    },
+    {
+      "id": "groq/llama-prompt-guard-2-86m",
+      "provider": "groq",
+      "name": "Llama Prompt Guard 2 86M",
+      "api_id": "meta-llama/llama-prompt-guard-2-86m",
+      "status": "preview",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.04,
+        "output": 0.04
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/llama-prompt-guard-2-86m"
+    },
+    {
+      "id": "groq/gpt-oss-safeguard-20b",
+      "provider": "groq",
+      "name": "Safety GPT-OSS 20B",
+      "api_id": "openai/gpt-oss-safeguard-20b",
+      "status": "preview",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.075,
+        "output": 0.3
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/gpt-oss-safeguard-20b"
+    },
+    {
+      "id": "groq/qwen3-6-27b",
+      "provider": "groq",
+      "name": "Qwen3.6 27B",
+      "api_id": "qwen/qwen3.6-27b",
+      "status": "preview",
+      "modality": "text",
+      "context_window": 131072,
+      "usd_per_mtok": {
+        "input": 0.6,
+        "output": 3
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/qwen3-6-27b"
+    },
+    {
+      "id": "groq/orpheus-arabic-saudi",
+      "provider": "groq",
+      "name": "Orpheus Arabic Saudi",
+      "api_id": "canopylabs/orpheus-arabic-saudi",
+      "status": "preview",
+      "modality": "audio-tts",
+      "context_window": 4000,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 40
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/orpheus-arabic-saudi"
+    },
+    {
+      "id": "groq/orpheus-v1-english",
+      "provider": "groq",
+      "name": "Orpheus V1 English",
+      "api_id": "canopylabs/orpheus-v1-english",
+      "status": "preview",
+      "modality": "audio-tts",
+      "context_window": 4000,
+      "usd_per_mtok": {},
+      "non_token_price": {
+        "unit": "per_million_characters",
+        "amount": 22
+      },
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/groq/orpheus-v1-english"
     },
     {
       "id": "cohere/command",
