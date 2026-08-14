@@ -2684,7 +2684,7 @@
       "usd_per_mtok": {},
       "non_token_price": {
         "unit": "per_minute",
-        "amount": 0.0077
+        "amount": 0.0065
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/deepgram/flux-general-en"
@@ -2700,7 +2700,7 @@
       "usd_per_mtok": {},
       "non_token_price": {
         "unit": "per_minute",
-        "amount": 0.0077
+        "amount": 0.0043
       },
       "scheduled_change": null,
       "url": "https://statlyte.com/models/deepgram/nova-3"

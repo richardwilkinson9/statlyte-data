@@ -3,6 +3,34 @@
   "pro": false,
   "changes": [
     {
+      "id": 102,
+      "occurred_at": "2026-08-13 22:28:25",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/nova-3",
+      "provider_id": "deepgram",
+      "kind": "price_drop",
+      "metric": "per_minute",
+      "old_value": "$0.0077",
+      "new_value": "$0.0043",
+      "pct_change": -44.16,
+      "headline": "Nova-3 price cut 44% to $0.0043 per minute",
+      "detail": "Price moved from $0.0077 to $0.0043 per minute."
+    },
+    {
+      "id": 101,
+      "occurred_at": "2026-08-13 22:28:25",
+      "source_url": "https://deepgram.com/pricing",
+      "model_id": "deepgram/flux-general-en",
+      "provider_id": "deepgram",
+      "kind": "price_drop",
+      "metric": "per_minute",
+      "old_value": "$0.0077",
+      "new_value": "$0.0065",
+      "pct_change": -15.58,
+      "headline": "Flux English price cut 16% to $0.0065 per minute",
+      "detail": "Price moved from $0.0077 to $0.0065 per minute."
+    },
+    {
       "id": 100,
       "occurred_at": "2026-08-13 14:11:22",
       "source_url": "https://console.groq.com/docs/models",
@@ -493,26 +521,6 @@
       "kind": "coverage",
       "headline": "Kimi K2.7 Code added to statlyte coverage",
       "detail": "First observed at $0.95 in / $4 out per million tokens."
-    },
-    {
-      "id": 52,
-      "occurred_at": "2026-08-08 07:26:49",
-      "source_url": "https://docs.fireworks.ai/serverless/pricing",
-      "model_id": "fireworks/kimi-k3",
-      "provider_id": "fireworks",
-      "kind": "coverage",
-      "headline": "Kimi K3 added to statlyte coverage",
-      "detail": "First observed at $3 in / $15 out per million tokens."
-    },
-    {
-      "id": 51,
-      "occurred_at": "2026-08-07 22:20:47",
-      "source_url": "https://cohere.com/pricing",
-      "model_id": "cohere/aya-expanse-32b",
-      "provider_id": "cohere",
-      "kind": "coverage",
-      "headline": "Aya Expanse 32B added to statlyte coverage",
-      "detail": "First observed at $0.5 in / $1.5 out per million tokens."
     }
   ]
 }
