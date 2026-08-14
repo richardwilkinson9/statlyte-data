@@ -3,6 +3,26 @@
   "pro": false,
   "changes": [
     {
+      "id": 107,
+      "occurred_at": "2026-08-14 03:19:12",
+      "source_url": "https://docs.voyageai.com/docs/pricing",
+      "model_id": "voyage/voyage-code-4",
+      "provider_id": "voyage",
+      "kind": "new_model",
+      "headline": "Voyage AI launched Voyage Code 4",
+      "detail": null
+    },
+    {
+      "id": 106,
+      "occurred_at": "2026-08-14 03:19:12",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "model_id": "google/gemini-3-7-flash",
+      "provider_id": "google",
+      "kind": "new_model",
+      "headline": "Google launched Gemini 3.7 Flash",
+      "detail": "Launch pricing: $0.75 in / $3.75 out per million tokens."
+    },
+    {
       "id": 102,
       "occurred_at": "2026-08-13 22:28:25",
       "source_url": "https://deepgram.com/pricing",
@@ -501,26 +521,6 @@
       "kind": "coverage",
       "headline": "DeepSeek V4 Pro added to statlyte coverage",
       "detail": "First observed at $1.74 in / $3.48 out per million tokens."
-    },
-    {
-      "id": 54,
-      "occurred_at": "2026-08-08 07:26:49",
-      "source_url": "https://docs.fireworks.ai/serverless/pricing",
-      "model_id": "fireworks/kimi-k2-6",
-      "provider_id": "fireworks",
-      "kind": "coverage",
-      "headline": "Kimi K2.6 added to statlyte coverage",
-      "detail": "First observed at $0.95 in / $4 out per million tokens."
-    },
-    {
-      "id": 53,
-      "occurred_at": "2026-08-08 07:26:49",
-      "source_url": "https://docs.fireworks.ai/serverless/pricing",
-      "model_id": "fireworks/kimi-k2-7-code",
-      "provider_id": "fireworks",
-      "kind": "coverage",
-      "headline": "Kimi K2.7 Code added to statlyte coverage",
-      "detail": "First observed at $0.95 in / $4 out per million tokens."
     }
   ]
 }

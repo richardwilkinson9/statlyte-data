@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-08-14",
   "source": "https://statlyte.com/models",
-  "count": 166,
+  "count": 168,
   "models": [
     {
       "id": "anthropic/claude-fable-5",
@@ -957,13 +957,46 @@
       "modality": "text",
       "context_window": null,
       "usd_per_mtok": {
-        "input": 1.5,
-        "output": 7.5,
-        "cache_read": 0.15
+        "input": 0.75,
+        "output": 3.75,
+        "cache_read": 0.075
       },
       "non_token_price": null,
-      "scheduled_change": null,
+      "scheduled_change": {
+        "effective_on": "2027-01-01",
+        "reason": "Introductory pricing ends; Google has published the standard rate that takes effect after it.",
+        "prices": {
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15
+        }
+      },
       "url": "https://statlyte.com/models/google/gemini-3-6-flash"
+    },
+    {
+      "id": "google/gemini-3-7-flash",
+      "provider": "google",
+      "name": "Gemini 3.7 Flash",
+      "api_id": "gemini-3.7-flash",
+      "status": "ga",
+      "modality": "text",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.75,
+        "output": 3.75,
+        "cache_read": 0.075
+      },
+      "non_token_price": null,
+      "scheduled_change": {
+        "effective_on": "2027-01-01",
+        "reason": "Introductory pricing ends; Google has published the standard rate that takes effect after it.",
+        "prices": {
+          "input": 1.5,
+          "output": 7.5,
+          "cache_read": 0.15
+        }
+      },
+      "url": "https://statlyte.com/models/google/gemini-3-7-flash"
     },
     {
       "id": "google/gemini-3-5-flash",
@@ -1264,7 +1297,15 @@
         "cache_read": 0.0028
       },
       "non_token_price": null,
-      "scheduled_change": null,
+      "scheduled_change": {
+        "effective_on": "2026-08-16",
+        "reason": "DeepSeek moves to peak/off-peak billing at 16:00 UTC. Off-peak (majority of hours) rate shown here; peak hours 01:00-04:00 and 06:00-10:00 UTC bill at $0.44 input / $1.32 output / $0.014 cache-read, double the off-peak rate.",
+        "prices": {
+          "input": 0.22,
+          "output": 0.66,
+          "cache_read": 0.007
+        }
+      },
       "url": "https://statlyte.com/models/deepseek/deepseek-v4-flash"
     },
     {
@@ -1281,7 +1322,15 @@
         "cache_read": 0.003625
       },
       "non_token_price": null,
-      "scheduled_change": null,
+      "scheduled_change": {
+        "effective_on": "2026-08-16",
+        "reason": "DeepSeek moves to peak/off-peak billing at 16:00 UTC. Off-peak (majority of hours) rate shown here; peak hours 01:00-04:00 and 06:00-10:00 UTC bill at $1.32 input / $3.96 output / $0.044 cache-read, double the off-peak rate.",
+        "prices": {
+          "input": 0.66,
+          "output": 1.98,
+          "cache_read": 0.022
+        }
+      },
       "url": "https://statlyte.com/models/deepseek/deepseek-v4-pro"
     },
     {
@@ -1582,6 +1631,21 @@
       "non_token_price": null,
       "scheduled_change": null,
       "url": "https://statlyte.com/models/voyage/voyage-context-4"
+    },
+    {
+      "id": "voyage/voyage-code-4",
+      "provider": "voyage",
+      "name": "Voyage Code 4",
+      "api_id": "voyage-code-4",
+      "status": "ga",
+      "modality": "embedding",
+      "context_window": null,
+      "usd_per_mtok": {
+        "input": 0.12
+      },
+      "non_token_price": null,
+      "scheduled_change": null,
+      "url": "https://statlyte.com/models/voyage/voyage-code-4"
     },
     {
       "id": "voyage/voyage-code-3",
